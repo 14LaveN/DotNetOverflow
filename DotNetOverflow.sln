@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetOverflow.QuestionAPI", "DotNetOverflow.QuestionAPI\DotNetOverflow.QuestionAPI.csproj", "{36E37C20-2EF5-4243-A8A5-628678A7F73B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{8B07C321-838A-4AC7-8397-486F670C80D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetOverflow.Web", "DotNetOverflow.Web\DotNetOverflow.Web.csproj", "{FE954932-202A-4377-8876-8200A6D5C980}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36E37C20-2EF5-4243-A8A5-628678A7F73B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36E37C20-2EF5-4243-A8A5-628678A7F73B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36E37C20-2EF5-4243-A8A5-628678A7F73B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36E37C20-2EF5-4243-A8A5-628678A7F73B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE954932-202A-4377-8876-8200A6D5C980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE954932-202A-4377-8876-8200A6D5C980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE954932-202A-4377-8876-8200A6D5C980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE954932-202A-4377-8876-8200A6D5C980}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{36E37C20-2EF5-4243-A8A5-628678A7F73B} = {8B07C321-838A-4AC7-8397-486F670C80D7}
+	EndGlobalSection
+EndGlobal
