@@ -1,0 +1,9 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=72c729b9_002D7391_002D41a4_002Da270_002D303dbc1692f6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Handle_WithValidCommand_ReturnsSuccessResponse" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::71FA55C0-92FA-4788-B18C-054A83E76C5C::net8.0::DotNetOverflow.QuestionAPI.Tests.Commands.Question.CreateQuestion.CreateQuestionCommandHandlerTests.Handle_WithValidCommand_ReturnsSuccessResponse&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::71FA55C0-92FA-4788-B18C-054A83E76C5C::net8.0::DotNetOverflow.QuestionAPI.Tests.Commands.Question.CreateQuestion.CreateQuestionCommandHandlerTests.Handle_WithInvalidCommand_ReturnsValidationErrorResponse&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::71FA55C0-92FA-4788-B18C-054A83E76C5C::net8.0::DotNetOverflow.QuestionAPI.Tests.Commands.Question.CreateQuestion.CreateQuestionCommandHandlerTests.Handle_WithException_ReturnsInternalServerErrorResponse&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::71FA55C0-92FA-4788-B18C-054A83E76C5C::net8.0::DotNetOverflow.QuestionAPI.Tests.Commands.Question.DeleteQuestion.DeleteQuestionCommandHandlerTests.Handle_WithValidCommand_ReturnsSuccessResponse&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -1,0 +1,33 @@
+{
+  "ConnectionStrings": {
+    "Db": "Server=localhost;Port=5433;Database=DNOGeneralDbDevelopment;User Id=postgres;Password=1111;"
+  },
+  "MongoConnection": {
+    "ConnectionString": "mongodb://localhost:27017",
+    "Database": "DNO",
+    "RabbitMessagesCollectionName": "RabbitMessages",
+    "MetricsCollectionName": "Metrics",
+    "CommentsCollectionName": "Comments",
+    "LikesCollectionName": "Likes"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "SmtpSettings": {
+    "From": "test",
+    "Server": "test",
+    "Username": "testuser",
+    "Password": "testpass"
+  },
+  "Jwt": {
+    "Secret": "secretsecret123456",
+    "ValidIssuer": "https://localhost:7124/",
+    "ValidAudience": "https://localhost:7124/",
+    "Expire": 3600,
+    "RefreshTokenExpire": 20160
+  },
+  "AllowedHosts": "*"
+}

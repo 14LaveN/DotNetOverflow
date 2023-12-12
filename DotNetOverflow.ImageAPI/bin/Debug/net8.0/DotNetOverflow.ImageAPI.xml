@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DotNetOverflow.ImageAPI</name>
+    </assembly>
+    <members>
+        <member name="M:DotNetOverflow.ImageAPI.Controllers.ApiBaseController.GetName">
+             <summary>
+             Get name
+             </summary>
+             <returns>Base information about get name method</returns>
+             <remarks>
+             Example request:
+             </remarks>
+             <response code="200">Return name by token</response>
+             <response code="400"></response>
+             <response code="500">Internal server error</response>
+            
+             
+        </member>
+        <member name="M:DotNetOverflow.ImageAPI.Controllers.ApiBaseController.GetProfile">
+             <summary>
+             Get profile
+             </summary>
+             <returns>Base information about get pfoile method</returns>
+             <remarks>
+             Example request:
+             </remarks>
+             <response code="200">Return app user</response>
+             <response code="400"></response>
+             <response code="500">Internal server error</response>
+            
+        </member>
+    </members>
+</doc>

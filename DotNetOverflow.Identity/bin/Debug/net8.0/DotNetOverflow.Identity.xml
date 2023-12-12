@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DotNetOverflow.Identity</name>
+    </assembly>
+    <members>
+        <member name="M:DotNetOverflow.Identity.Controllers.IdentityController.Login(DotNetOverflow.Identity.Commands.Login.LoginCommand)">
+             <summary>
+             Login account
+             </summary>
+             <param name="request"></param>
+             <returns>Base information about register an account</returns>
+             <remarks>
+             Example request:
+             </remarks>
+             <response code="200">Return description and access token</response>
+             <response code="400"></response>
+             <response code="500">Internal server error</response>
+            
+        </member>
+        <member name="M:DotNetOverflow.Identity.Controllers.IdentityController.Register(DotNetOverflow.Identity.Commands.Register.RegisterCommand)">
+             <summary>
+             Register account
+             </summary>
+             <param name="request"></param>
+             <returns>Base information about login an account</returns>
+             <remarks>
+             Example request:
+             </remarks>
+             <response code="200">Return description and access token</response>
+             <response code="400"></response>
+             <response code="500">Internal server error</response>
+            
+        </member>
+    </members>
+</doc>

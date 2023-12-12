@@ -1,0 +1,16 @@
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.RabbitMq\bin\Debug\net8.0\DotNetOverflow.RabbitMq.deps.json
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.RabbitMq\bin\Debug\net8.0\DotNetOverflow.RabbitMq.dll
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.RabbitMq\bin\Debug\net8.0\DotNetOverflow.RabbitMq.pdb
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.RabbitMq\bin\Debug\net8.0\DotNetOverflow.Core.dll
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.RabbitMq\bin\Debug\net8.0\DotNetOverflow.Core.pdb
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.RabbitMq\obj\Debug\net8.0\DotNetOverflow.RabbitMq.csproj.AssemblyReference.cache
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.RabbitMq\obj\Debug\net8.0\DotNetOverflow.RabbitMq.GeneratedMSBuildEditorConfig.editorconfig
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.RabbitMq\obj\Debug\net8.0\DotNetOverflow.RabbitMq.AssemblyInfoInputs.cache
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.RabbitMq\obj\Debug\net8.0\DotNetOverflow.RabbitMq.AssemblyInfo.cs
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.RabbitMq\obj\Debug\net8.0\DotNetOverflow.RabbitMq.csproj.CoreCompileInputs.cache
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.RabbitMq\obj\Debug\net8.0\DotNetOverflow.RabbitMq.sourcelink.json
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.RabbitMq\obj\Debug\net8.0\DotNetOverflow.RabbitMq.csproj.CopyComplete
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.RabbitMq\obj\Debug\net8.0\DotNetOverflow.RabbitMq.dll
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.RabbitMq\obj\Debug\net8.0\refint\DotNetOverflow.RabbitMq.dll
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.RabbitMq\obj\Debug\net8.0\DotNetOverflow.RabbitMq.pdb
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.RabbitMq\obj\Debug\net8.0\ref\DotNetOverflow.RabbitMq.dll

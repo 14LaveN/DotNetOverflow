@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "kfmqy/mC6CZp4JpHsK/1KHcZ5X1HIYCQZxKaEe9NbPw=",
+  "Source": "DotNetOverflow.NewsAPI",
+  "BasePath": "_content/DotNetOverflow.NewsAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

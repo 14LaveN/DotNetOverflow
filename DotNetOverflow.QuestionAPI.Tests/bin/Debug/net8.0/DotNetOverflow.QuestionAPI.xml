@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DotNetOverflow.QuestionAPI</name>
+    </assembly>
+    <members>
+        <member name="M:DotNetOverflow.QuestionAPI.Controllers.ApiBaseController.GetName">
+             <summary>
+             Get name
+             </summary>
+             <returns>Base information about get name method</returns>
+             <remarks>
+             Example request:
+             </remarks>
+             <response code="200">Return name by token</response>
+             <response code="400"></response>
+             <response code="500">Internal server error</response>
+            
+             
+        </member>
+        <member name="M:DotNetOverflow.QuestionAPI.Controllers.ApiBaseController.GetProfile">
+             <summary>
+             Get profile
+             </summary>
+             <returns>Base information about get pfoile method</returns>
+             <remarks>
+             Example request:
+             </remarks>
+             <response code="200">Return app user</response>
+             <response code="400"></response>
+             <response code="500">Internal server error</response>
+            
+        </member>
+        <member name="M:DotNetOverflow.QuestionAPI.Controllers.V1.QuestionController.CreateQuestion(DotNetOverflow.QuestionAPI.Commands.Question.CreateQuestion.CreateQuestionCommand)">
+             <summary>
+             Create question
+             </summary>
+             <param name="createQuestionCommand"></param>
+             <returns>Base information about create question method</returns>
+             <remarks>
+             Example request:
+             </remarks>
+             <response code="200">Return base response where data - question entity and Status Code</response>
+             <response code="400"></response>
+             <response code="500">Internal server error</response>
+            
+        </member>
+        <member name="M:DotNetOverflow.QuestionAPI.Controllers.V1.QuestionController.DeleteQuestion(DotNetOverflow.QuestionAPI.Commands.Question.DeleteQuestion.DeleteQuestionCommand)">
+             <summary>
+             Delete question
+             </summary>
+             <param name="deleteQuestionCommand"></param>
+             <returns>Base information about delete question method</returns>
+             <remarks>
+             Example request:
+             </remarks>
+             <response code="200">Return base response where data - DeleteQuestionCommand and Status Code</response>
+             <response code="400"></response>
+             <response code="500">Internal server error</response>
+            
+        </member>
+        <member name="M:DotNetOverflow.QuestionAPI.Controllers.V1.QuestionController.UpdateQuestion(DotNetOverflow.QuestionAPI.Commands.Question.UpdateQuestion.UpdateQuestionCommand)">
+             <summary>
+             Update question
+             </summary>
+             <param name="updateQuestionCommand"></param>
+             <returns>Base information about update question method</returns>
+             <remarks>
+             Example request:
+             </remarks>
+             <response code="200">Return base response where data - QuestionEntity and Status Code</response>
+             <response code="400"></response>
+             <response code="500">Internal server error</response>
+            
+        </member>
+        <member name="M:DotNetOverflow.QuestionAPI.Controllers.V1.QuestionController.GetQuestionById(DotNetOverflow.QuestionAPI.Queries.Question.GetQuestionDetails.GetQuestionDetailsQuery)">
+             <summary>
+             Get question by id
+             </summary>
+             <param name="=getQuestionDetailsQuery=getQuestionDetailsQuery"></param>
+             <returns>Base information about get question by id method</returns>
+             <remarks>
+             Example request:
+             </remarks>
+             <response code="200">Return base response where data - QuestionEntity and Status Code</response>
+             <response code="400"></response>
+             <response code="500">Internal server error</response>
+            
+        </member>
+    </members>
+</doc>

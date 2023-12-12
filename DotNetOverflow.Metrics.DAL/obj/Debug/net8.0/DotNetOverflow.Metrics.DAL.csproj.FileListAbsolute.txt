@@ -1,0 +1,16 @@
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Metrics.DAL\bin\Debug\net8.0\DotNetOverflow.Metrics.DAL.deps.json
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Metrics.DAL\bin\Debug\net8.0\DotNetOverflow.Metrics.DAL.dll
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Metrics.DAL\bin\Debug\net8.0\DotNetOverflow.Metrics.DAL.pdb
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Metrics.DAL\bin\Debug\net8.0\DotNetOverflow.Core.dll
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Metrics.DAL\bin\Debug\net8.0\DotNetOverflow.Core.pdb
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Metrics.DAL\obj\Debug\net8.0\DotNetOverflow.Metrics.DAL.csproj.AssemblyReference.cache
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Metrics.DAL\obj\Debug\net8.0\DotNetOverflow.Metrics.DAL.GeneratedMSBuildEditorConfig.editorconfig
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Metrics.DAL\obj\Debug\net8.0\DotNetOverflow.Metrics.DAL.AssemblyInfoInputs.cache
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Metrics.DAL\obj\Debug\net8.0\DotNetOverflow.Metrics.DAL.AssemblyInfo.cs
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Metrics.DAL\obj\Debug\net8.0\DotNetOverflow.Metrics.DAL.csproj.CoreCompileInputs.cache
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Metrics.DAL\obj\Debug\net8.0\DotNetOverflow.Metrics.DAL.sourcelink.json
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Metrics.DAL\obj\Debug\net8.0\DotNetOverflow.Metrics.DAL.csproj.CopyComplete
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Metrics.DAL\obj\Debug\net8.0\DotNetOverflow.Metrics.DAL.dll
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Metrics.DAL\obj\Debug\net8.0\refint\DotNetOverflow.Metrics.DAL.dll
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Metrics.DAL\obj\Debug\net8.0\DotNetOverflow.Metrics.DAL.pdb
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Metrics.DAL\obj\Debug\net8.0\ref\DotNetOverflow.Metrics.DAL.dll

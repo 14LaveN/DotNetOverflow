@@ -1,0 +1,116 @@
+2023-12-11 17:00:40.2733|0|DEBUG|Quartz.Core.JobRunShell|Trigger instruction : NoInstruction |url: |action: |Quartz.Core.JobRunShell.Run
+2023-12-11 17:00:41.7334|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7004 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-12-11 17:00:41.7334|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5284 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-12-11 17:00:41.7334|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-12-11 17:00:41.7334|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-12-11 17:00:41.7334|0|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Identity |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-12-11 17:01:07.8285|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:01:33.1351|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:02:02.3541|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:02:27.8514|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 1 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:02:39.4649|0|DEBUG|Quartz.Simpl.SimpleJobFactory|Producing instance of Job 'DEFAULT.06063d0a-0fc8-4183-996f-865945e20b67', class=DotNetOverflow.QuartZ.Jobs.DbTask |url: |action: |Quartz.Simpl.SimpleJobFactory.NewJob
+2023-12-11 17:02:39.4649|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:02:39.4649|0|DEBUG|Quartz.Core.JobRunShell|Calling Execute on job DEFAULT.06063d0a-0fc8-4183-996f-865945e20b67 |url: |action: |Quartz.Core.JobRunShell.Run
+2023-12-11 17:02:39.4832|0|DEBUG|Quartz.Core.JobRunShell|Trigger instruction : NoInstruction |url: |action: |Quartz.Core.JobRunShell.Run
+2023-12-11 17:03:07.8554|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:03:37.6675|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:04:07.2594|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:04:33.4590|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 1 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:04:39.4596|0|DEBUG|Quartz.Simpl.SimpleJobFactory|Producing instance of Job 'DEFAULT.06063d0a-0fc8-4183-996f-865945e20b67', class=DotNetOverflow.QuartZ.Jobs.DbTask |url: |action: |Quartz.Simpl.SimpleJobFactory.NewJob
+2023-12-11 17:04:39.4596|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:04:39.4596|0|DEBUG|Quartz.Core.JobRunShell|Calling Execute on job DEFAULT.06063d0a-0fc8-4183-996f-865945e20b67 |url: |action: |Quartz.Core.JobRunShell.Run
+2023-12-11 17:04:39.4596|0|DEBUG|Quartz.Core.JobRunShell|Trigger instruction : NoInstruction |url: |action: |Quartz.Core.JobRunShell.Run
+2023-12-11 17:05:02.9288|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:05:32.4077|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:06:01.1825|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:06:16.1926|0|INFO|DotNetOverflow.Identity.Commands.Register.RegisterCommandHandler|Request for login an account - Sasdsfjkgkjsdsdf dfgfdg |url: https://localhost/api/v1/identity/register-user|action: Register|DotNetOverflow.Identity.Commands.Register.RegisterCommandHandler.Handle
+2023-12-11 17:06:22.0446|0|INFO|DotNetOverflow.Identity.Commands.Login.LoginCommandHandler|Request for login an account - Sasdsfjkgkjsdsdf |url: https://localhost/api/v1/identity/register-user|action: Register|DotNetOverflow.Identity.Commands.Login.LoginCommandHandler.Handle
+2023-12-11 17:06:23.8492|0|INFO|DotNetOverflow.Identity.Commands.Login.LoginCommandHandler|User logged in - Sasdsfjkgkjsdsdf 11.12.2023 11:06:23 |url: https://localhost/api/v1/identity/register-user|action: Register|DotNetOverflow.Identity.Commands.Login.LoginCommandHandler.Handle
+2023-12-11 17:06:25.1725|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 1 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:06:27.7193|0|INFO|DotNetOverflow.Identity.Commands.Register.RegisterCommandHandler|User authorized - Sasdsfjkgkjsdsdf 11.12.2023 11:06:27 |url: https://localhost/api/v1/identity/register-user|action: Register|DotNetOverflow.Identity.Commands.Register.RegisterCommandHandler.Handle
+2023-12-11 17:06:39.4712|0|DEBUG|Quartz.Simpl.SimpleJobFactory|Producing instance of Job 'DEFAULT.06063d0a-0fc8-4183-996f-865945e20b67', class=DotNetOverflow.QuartZ.Jobs.DbTask |url: |action: |Quartz.Simpl.SimpleJobFactory.NewJob
+2023-12-11 17:06:39.4712|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:06:39.4712|0|DEBUG|Quartz.Core.JobRunShell|Calling Execute on job DEFAULT.06063d0a-0fc8-4183-996f-865945e20b67 |url: |action: |Quartz.Core.JobRunShell.Run
+2023-12-11 17:06:39.4712|0|DEBUG|Quartz.Core.JobRunShell|Trigger instruction : NoInstruction |url: |action: |Quartz.Core.JobRunShell.Run
+2023-12-11 17:07:09.1729|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:07:32.7499|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:07:58.4754|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:08:27.0787|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 1 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:08:39.4711|0|DEBUG|Quartz.Simpl.SimpleJobFactory|Producing instance of Job 'DEFAULT.06063d0a-0fc8-4183-996f-865945e20b67', class=DotNetOverflow.QuartZ.Jobs.DbTask |url: |action: |Quartz.Simpl.SimpleJobFactory.NewJob
+2023-12-11 17:08:39.4711|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:08:39.4711|0|DEBUG|Quartz.Core.JobRunShell|Calling Execute on job DEFAULT.06063d0a-0fc8-4183-996f-865945e20b67 |url: |action: |Quartz.Core.JobRunShell.Run
+2023-12-11 17:08:39.4711|0|DEBUG|Quartz.Core.JobRunShell|Trigger instruction : NoInstruction |url: |action: |Quartz.Core.JobRunShell.Run
+2023-12-11 17:09:06.8009|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:09:30.3038|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:09:59.8780|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:10:26.9075|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 1 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:10:39.4629|0|DEBUG|Quartz.Simpl.SimpleJobFactory|Producing instance of Job 'DEFAULT.06063d0a-0fc8-4183-996f-865945e20b67', class=DotNetOverflow.QuartZ.Jobs.DbTask |url: |action: |Quartz.Simpl.SimpleJobFactory.NewJob
+2023-12-11 17:10:39.4629|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:10:39.4629|0|DEBUG|Quartz.Core.JobRunShell|Calling Execute on job DEFAULT.06063d0a-0fc8-4183-996f-865945e20b67 |url: |action: |Quartz.Core.JobRunShell.Run
+2023-12-11 17:10:39.4629|0|DEBUG|Quartz.Core.JobRunShell|Trigger instruction : NoInstruction |url: |action: |Quartz.Core.JobRunShell.Run
+2023-12-11 17:11:02.5685|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:11:26.8707|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:11:56.3951|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:13:06.4832|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 1 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:13:06.6565|0|DEBUG|Quartz.Simpl.SimpleJobFactory|Producing instance of Job 'DEFAULT.06063d0a-0fc8-4183-996f-865945e20b67', class=DotNetOverflow.QuartZ.Jobs.DbTask |url: |action: |Quartz.Simpl.SimpleJobFactory.NewJob
+2023-12-11 17:13:07.3966|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:13:07.3966|0|DEBUG|Quartz.Core.JobRunShell|Calling Execute on job DEFAULT.06063d0a-0fc8-4183-996f-865945e20b67 |url: |action: |Quartz.Core.JobRunShell.Run
+2023-12-11 17:13:07.6592|0|DEBUG|Quartz.Core.JobRunShell|Trigger instruction : NoInstruction |url: |action: |Quartz.Core.JobRunShell.Run
+2023-12-11 17:13:12.3768|0|INFO|DotNetOverflow.Identity.Commands.Register.RegisterCommandHandler|Request for login an account - dsfdsfsd dsfsdf |url: https://localhost/api/v1/identity/register-user|action: Register|DotNetOverflow.Identity.Commands.Register.RegisterCommandHandler.Handle
+2023-12-11 17:13:13.6422|0|INFO|DotNetOverflow.Identity.Commands.Login.LoginCommandHandler|Request for login an account - dsfdsfsd |url: https://localhost/api/v1/identity/register-user|action: Register|DotNetOverflow.Identity.Commands.Login.LoginCommandHandler.Handle
+2023-12-11 17:13:14.4725|0|INFO|DotNetOverflow.Identity.Commands.Login.LoginCommandHandler|User logged in - dsfdsfsd 11.12.2023 11:13:14 |url: https://localhost/api/v1/identity/register-user|action: Register|DotNetOverflow.Identity.Commands.Login.LoginCommandHandler.Handle
+2023-12-11 17:13:16.2897|0|INFO|DotNetOverflow.Identity.Commands.Register.RegisterCommandHandler|User authorized - dsfdsfsd 11.12.2023 11:13:16 |url: https://localhost/api/v1/identity/register-user|action: Register|DotNetOverflow.Identity.Commands.Register.RegisterCommandHandler.Handle
+2023-12-11 17:13:35.0589|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:35:36.5427|0|DEBUG|Quartz.Core.JobRunShell|Trigger instruction : NoInstruction |url: |action: |Quartz.Core.JobRunShell.Run
+2023-12-11 17:35:38.0173|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7004 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-12-11 17:35:38.0173|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5284 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-12-11 17:35:38.0173|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-12-11 17:35:38.0173|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-12-11 17:35:38.0173|0|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Identity |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-12-11 17:35:42.8078|0|INFO|DotNetOverflow.Identity.Commands.Register.RegisterCommandHandler|Request for login an account - dsfdsfsd dsfsdf |url: https://localhost/api/v1/identity/register-user|action: Register|DotNetOverflow.Identity.Commands.Register.RegisterCommandHandler.Handle
+2023-12-11 17:35:51.8707|0|DEBUG|Quartz.Core.JobRunShell|Trigger instruction : NoInstruction |url: |action: |Quartz.Core.JobRunShell.Run
+2023-12-11 17:35:53.1545|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7004 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-12-11 17:35:53.1569|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5284 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-12-11 17:35:53.1569|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-12-11 17:35:53.1569|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-12-11 17:35:53.1569|0|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Identity |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-12-11 17:36:04.6597|0|INFO|DotNetOverflow.Identity.Commands.Register.RegisterCommandHandler|Request for login an account - dsfdsfsddfgggdfg dsfsdf |url: https://localhost/api/v1/identity/register-user|action: Register|DotNetOverflow.Identity.Commands.Register.RegisterCommandHandler.Handle
+2023-12-11 17:36:43.2156|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:36:46.3703|0|INFO|DotNetOverflow.Identity.Commands.Login.LoginCommandHandler|Request for login an account - dsfdsfsddfgggdfg |url: https://localhost/api/v1/identity/register-user|action: Register|DotNetOverflow.Identity.Commands.Login.LoginCommandHandler.Handle
+2023-12-11 17:36:48.7818|0|INFO|DotNetOverflow.Identity.Commands.Login.LoginCommandHandler|User logged in - dsfdsfsddfgggdfg 11.12.2023 11:36:48 |url: https://localhost/api/v1/identity/register-user|action: Register|DotNetOverflow.Identity.Commands.Login.LoginCommandHandler.Handle
+2023-12-11 17:36:52.7546|0|INFO|DotNetOverflow.Identity.Commands.Register.RegisterCommandHandler|User authorized - dsfdsfsddfgggdfg 11.12.2023 11:36:52 |url: https://localhost/api/v1/identity/register-user|action: Register|DotNetOverflow.Identity.Commands.Register.RegisterCommandHandler.Handle
+2023-12-11 17:37:11.1716|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:37:24.1927|0|INFO|DotNetOverflow.Identity.Commands.Register.RegisterCommandHandler|Request for login an account - dsfdsfsddfgggdfgdfg dsfsdf |url: https://localhost/api/v1/identity/register-user|action: Register|DotNetOverflow.Identity.Commands.Register.RegisterCommandHandler.Handle
+2023-12-11 17:37:25.4668|0|INFO|DotNetOverflow.Identity.Commands.Login.LoginCommandHandler|Request for login an account - dsfdsfsddfgggdfgdfg |url: https://localhost/api/v1/identity/register-user|action: Register|DotNetOverflow.Identity.Commands.Login.LoginCommandHandler.Handle
+2023-12-11 17:37:26.2962|0|INFO|DotNetOverflow.Identity.Commands.Login.LoginCommandHandler|User logged in - dsfdsfsddfgggdfgdfg 11.12.2023 11:37:26 |url: https://localhost/api/v1/identity/register-user|action: Register|DotNetOverflow.Identity.Commands.Login.LoginCommandHandler.Handle
+2023-12-11 17:37:28.7349|0|INFO|DotNetOverflow.Identity.Commands.Register.RegisterCommandHandler|User authorized - dsfdsfsddfgggdfgdfg 11.12.2023 11:37:28 |url: https://localhost/api/v1/identity/register-user|action: Register|DotNetOverflow.Identity.Commands.Register.RegisterCommandHandler.Handle
+2023-12-11 17:37:39.6420|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 1 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:37:44.0217|0|INFO|DotNetOverflow.Identity.Commands.Register.RegisterCommandHandler|Request for login an account - dsfdsfsddfgggdfgdfgf dsfsdf |url: https://localhost/api/v1/identity/register-user|action: Register|DotNetOverflow.Identity.Commands.Register.RegisterCommandHandler.Handle
+2023-12-11 17:37:47.8691|0|INFO|DotNetOverflow.Identity.Commands.Login.LoginCommandHandler|Request for login an account - dsfdsfsddfgggdfgdfgf |url: https://localhost/api/v1/identity/register-user|action: Register|DotNetOverflow.Identity.Commands.Login.LoginCommandHandler.Handle
+2023-12-11 17:37:50.1998|0|INFO|DotNetOverflow.Identity.Commands.Login.LoginCommandHandler|User logged in - dsfdsfsddfgggdfgdfgf 11.12.2023 11:37:50 |url: https://localhost/api/v1/identity/register-user|action: Register|DotNetOverflow.Identity.Commands.Login.LoginCommandHandler.Handle
+2023-12-11 17:37:50.9771|0|DEBUG|Quartz.Simpl.SimpleJobFactory|Producing instance of Job 'DEFAULT.59952249-35be-404c-ad5f-a1a0972728ef', class=DotNetOverflow.QuartZ.Jobs.DbTask |url: |action: |Quartz.Simpl.SimpleJobFactory.NewJob
+2023-12-11 17:37:50.9771|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:37:50.9771|0|DEBUG|Quartz.Core.JobRunShell|Calling Execute on job DEFAULT.59952249-35be-404c-ad5f-a1a0972728ef |url: |action: |Quartz.Core.JobRunShell.Run
+2023-12-11 17:37:50.9889|0|DEBUG|Quartz.Core.JobRunShell|Trigger instruction : NoInstruction |url: |action: |Quartz.Core.JobRunShell.Run
+2023-12-11 17:38:06.7490|0|INFO|DotNetOverflow.Identity.Commands.Register.RegisterCommandHandler|User authorized - dsfdsfsddfgggdfgdfgf 11.12.2023 11:38:06 |url: https://localhost/api/v1/identity/register-user|action: Register|DotNetOverflow.Identity.Commands.Register.RegisterCommandHandler.Handle
+2023-12-11 17:38:26.4456|0|DEBUG|Quartz.Core.JobRunShell|Trigger instruction : NoInstruction |url: |action: |Quartz.Core.JobRunShell.Run
+2023-12-11 17:38:27.7388|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7004 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-12-11 17:38:27.7388|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5284 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-12-11 17:38:27.7388|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-12-11 17:38:27.7388|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-12-11 17:38:27.7388|0|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Identity |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-12-11 17:38:35.6159|0|INFO|DotNetOverflow.Identity.Commands.Register.RegisterCommandHandler|Request for login an account - dsfdsfsddfgggdfgdfgff dsfsdf |url: https://localhost/api/v1/identity/register-user|action: Register|DotNetOverflow.Identity.Commands.Register.RegisterCommandHandler.Handle
+2023-12-11 17:38:40.8716|0|INFO|DotNetOverflow.Identity.Commands.Login.LoginCommandHandler|Request for login an account - dsfdsfsddfgggdfgdfgff |url: https://localhost/api/v1/identity/register-user|action: Register|DotNetOverflow.Identity.Commands.Login.LoginCommandHandler.Handle
+2023-12-11 17:38:53.5028|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:38:53.5256|0|INFO|DotNetOverflow.Identity.Commands.Login.LoginCommandHandler|User logged in - dsfdsfsddfgggdfgdfgff 11.12.2023 11:38:53 |url: https://localhost/api/v1/identity/register-user|action: Register|DotNetOverflow.Identity.Commands.Login.LoginCommandHandler.Handle
+2023-12-11 17:39:24.2574|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:40:23.9302|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 1 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:40:24.7059|0|INFO|DotNetOverflow.Identity.Commands.Register.RegisterCommandHandler|User authorized - dsfdsfsddfgggdfgdfgff 11.12.2023 11:40:24 |url: https://localhost/api/v1/identity/register-user|action: Register|DotNetOverflow.Identity.Commands.Register.RegisterCommandHandler.Handle
+2023-12-11 17:40:25.6354|0|DEBUG|Quartz.Simpl.SimpleJobFactory|Producing instance of Job 'DEFAULT.2e920843-fac8-481c-acc5-9cf43be2ce33', class=DotNetOverflow.QuartZ.Jobs.DbTask |url: |action: |Quartz.Simpl.SimpleJobFactory.NewJob
+2023-12-11 17:40:25.6354|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:40:25.6354|0|DEBUG|Quartz.Core.JobRunShell|Calling Execute on job DEFAULT.2e920843-fac8-481c-acc5-9cf43be2ce33 |url: |action: |Quartz.Core.JobRunShell.Run
+2023-12-11 17:40:25.6481|0|DEBUG|Quartz.Core.JobRunShell|Trigger instruction : NoInstruction |url: |action: |Quartz.Core.JobRunShell.Run
+2023-12-11 17:40:50.0920|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:41:13.6023|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:41:37.4672|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-11 17:42:06.7665|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 1 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run

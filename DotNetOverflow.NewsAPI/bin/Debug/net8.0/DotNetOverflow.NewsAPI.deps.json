@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DotNetOverflow.NewsAPI/1.0.0": {
+        "runtime": {
+          "DotNetOverflow.NewsAPI.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DotNetOverflow.NewsAPI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

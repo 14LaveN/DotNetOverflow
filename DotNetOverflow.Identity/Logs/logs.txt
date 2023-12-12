@@ -1,0 +1,24 @@
+2023-12-11 17:00:39.5822 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-12-11 17:00:39.6025 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-12-11 17:00:39.6025 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-12-11 17:00:39.6238 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-11 17:00:39.6238 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Identity\bin\Debug\net8.0\nlogIdentity.config
+2023-12-11 17:00:39.6238 Info Configuration initialized.
+2023-12-11 17:35:35.8431 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-12-11 17:35:35.8615 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-12-11 17:35:35.8615 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-12-11 17:35:35.8829 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-11 17:35:35.8829 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Identity\bin\Debug\net8.0\nlogIdentity.config
+2023-12-11 17:35:35.8987 Info Configuration initialized.
+2023-12-11 17:35:51.1025 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-12-11 17:35:51.1248 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-12-11 17:35:51.1248 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-12-11 17:35:51.1426 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-11 17:35:51.1426 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Identity\bin\Debug\net8.0\nlogIdentity.config
+2023-12-11 17:35:51.1665 Info Configuration initialized.
+2023-12-11 17:38:25.6892 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-12-11 17:38:25.7102 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-12-11 17:38:25.7102 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-12-11 17:38:25.7304 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-11 17:38:25.7431 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Identity\bin\Debug\net8.0\nlogIdentity.config
+2023-12-11 17:38:25.7545 Info Configuration initialized.

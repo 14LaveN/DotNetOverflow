@@ -1,0 +1,8 @@
+﻿services:
+  dotnetoverflow.identity:
+    image: dotnetoverflow.identity
+    build:
+      context: .
+      dockerfile: DotNetOverflow.Identity/Dockerfile
+    ports:
+      - 7004:7004

@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="CommonControllers\" />
+      <Folder Include="Controllers\" />
+      <Folder Include="Helpers\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.ViewFeatures" Version="2.2.0" />
+      <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="8.0.0" />
+      <PackageReference Include="MongoDB.Driver" Version="2.22.0" />
+      <PackageReference Include="MongoDB.Driver.Core" Version="2.22.0" />
+      <PackageReference Include="prometheus-net" Version="8.2.0-pre-231128134008-9a7dad2" />
+      <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.0.3" />
+    </ItemGroup>
+
+</Project>

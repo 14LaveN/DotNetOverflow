@@ -1,0 +1,12 @@
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.ArticleAPI.DAL\bin\Debug\net8.0\DotNetOverflow.ArticleAPI.DAL.deps.json
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.ArticleAPI.DAL\bin\Debug\net8.0\DotNetOverflow.ArticleAPI.DAL.dll
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.ArticleAPI.DAL\bin\Debug\net8.0\DotNetOverflow.ArticleAPI.DAL.pdb
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.ArticleAPI.DAL\obj\Debug\net8.0\DotNetOverflow.ArticleAPI.DAL.GeneratedMSBuildEditorConfig.editorconfig
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.ArticleAPI.DAL\obj\Debug\net8.0\DotNetOverflow.ArticleAPI.DAL.AssemblyInfoInputs.cache
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.ArticleAPI.DAL\obj\Debug\net8.0\DotNetOverflow.ArticleAPI.DAL.AssemblyInfo.cs
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.ArticleAPI.DAL\obj\Debug\net8.0\DotNetOverflow.ArticleAPI.DAL.csproj.CoreCompileInputs.cache
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.ArticleAPI.DAL\obj\Debug\net8.0\DotNetOverflow.ArticleAPI.DAL.sourcelink.json
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.ArticleAPI.DAL\obj\Debug\net8.0\DotNetOverflow.ArticleAPI.DAL.dll
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.ArticleAPI.DAL\obj\Debug\net8.0\refint\DotNetOverflow.ArticleAPI.DAL.dll
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.ArticleAPI.DAL\obj\Debug\net8.0\DotNetOverflow.ArticleAPI.DAL.pdb
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.ArticleAPI.DAL\obj\Debug\net8.0\ref\DotNetOverflow.ArticleAPI.DAL.dll

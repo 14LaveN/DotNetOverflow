@@ -1,0 +1,16 @@
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Email\obj\Debug\net8.0\DotNetOverflow.Email.csproj.AssemblyReference.cache
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Email\obj\Debug\net8.0\DotNetOverflow.Email.GeneratedMSBuildEditorConfig.editorconfig
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Email\obj\Debug\net8.0\DotNetOverflow.Email.AssemblyInfoInputs.cache
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Email\obj\Debug\net8.0\DotNetOverflow.Email.AssemblyInfo.cs
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Email\obj\Debug\net8.0\DotNetOverflow.Email.csproj.CoreCompileInputs.cache
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Email\obj\Debug\net8.0\DotNetOverflow.Email.sourcelink.json
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Email\bin\Debug\net8.0\DotNetOverflow.Email.deps.json
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Email\bin\Debug\net8.0\DotNetOverflow.Email.dll
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Email\bin\Debug\net8.0\DotNetOverflow.Email.pdb
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Email\bin\Debug\net8.0\DotNetOverflow.Core.dll
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Email\bin\Debug\net8.0\DotNetOverflow.Core.pdb
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Email\obj\Debug\net8.0\DotNetOverflow.Email.csproj.CopyComplete
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Email\obj\Debug\net8.0\DotNetOverflow.Email.dll
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Email\obj\Debug\net8.0\refint\DotNetOverflow.Email.dll
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Email\obj\Debug\net8.0\DotNetOverflow.Email.pdb
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Email\obj\Debug\net8.0\ref\DotNetOverflow.Email.dll
