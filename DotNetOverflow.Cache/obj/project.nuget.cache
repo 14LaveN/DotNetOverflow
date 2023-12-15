@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "HJTelZEzE1PQ/HUb868azt2DhoRZowo4dXQHyoFo33BR29SkQtxkhCRf6ZWtTtDwmEGX23ay1KdbcAjB2l2txQ==",
+  "success": true,
+  "projectFilePath": "G:\\DotNetProjects\\DotNetOverflow\\DotNetOverflow.Cache\\DotNetOverflow.Cache.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ponom\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\ponom\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

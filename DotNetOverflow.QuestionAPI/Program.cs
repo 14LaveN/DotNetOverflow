@@ -2,6 +2,7 @@ using DotNetOverflow.QuartZ;
 using DotNetOverflow.QuartZ.Jobs;
 using DotNetOverflow.QuestionAPI.Common.Entry;
 using DotNetOverflow.QuestionAPI.Configurations;
+using DotNetOverflow.QuestionAPI.Handlers;
 using DotNetOverflow.QuestionAPI.Middlewares;
 using DotNetOverflow.RabbitMq;
 using HealthChecks.UI.Client;
@@ -35,6 +36,8 @@ builder.Services.AddQuartzExtensions();
 builder.Services.AddDatabase(builder.Configuration);
 
 builder.Services.AddSwachbackleService();
+
+builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
 
 AbstractScheduler<DbTask>.Start(builder.Services);
 
@@ -75,5 +78,6 @@ app.MapControllers();
 
 app.UseCustomMiddlewares();
 
+app.UseExceptionHandler("/error");
 
 app.Run();

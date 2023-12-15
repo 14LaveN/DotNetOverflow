@@ -1,9 +1,11 @@
 using System.ComponentModel.DataAnnotations;
+using AutoFixture;
 using DotNetOverflow.Core.Entity.Question;
 using DotNetOverflow.Core.Enum.Question;
 using DotNetOverflow.Core.Enum.StatusCodes;
 using DotNetOverflow.Identity.DAL.Database;
 using DotNetOverflow.QuestionAPI.Commands.Question.CreateQuestion;
+using DotNetOverflow.QuestionAPI.DAL.Database;
 using DotNetOverflow.QuestionAPI.DAL.Database.Interfaces;
 using DotNetOverflow.QuestionAPI.DAL.Database.Repository;
 using DotNetOverflow.RabbitMq.Interfaces;
@@ -26,7 +28,10 @@ public class CreateQuestionCommandHandlerTests
         _rabbitMqServiceMock = new Mock<IRabbitMqService>();
         _validatorMock = new CreateQuestionCommandValidator();
         _loggerMock = new Mock<ILogger<CreateQuestionCommandHandler>>();
-        questionUnitOfWork = new QuestionUnitOfWork(new QuestionRepository(new AppDbContext()), new AppDbContext());
+        questionUnitOfWork = new QuestionUnitOfWork(new QuestionRepository
+            (new AppDbContext(), new QuestionDbContext()),
+            new AppDbContext(),
+            new QuestionDbContext());
         _commandHandler = new CreateQuestionCommandHandler(
             _rabbitMqServiceMock.Object,
             _validatorMock,
@@ -38,15 +43,11 @@ public class CreateQuestionCommandHandlerTests
     [Fact]
     public async Task Handle_WithValidCommand_ReturnsSuccessResponse()
     {
-        // Arrange
-        var command = new CreateQuestionCommand
-        {
-            Title = "Test Question",
-            Body = "This is a test question",
-            QuestionType = QuestionTypes.Programming,
-            AuthorId = 1,
-            Tag = "Test Tag"
-        };
+
+        var fixture = new Fixture();
+        var command = fixture.Create<CreateQuestionCommand>();
+        command.AuthorId = 1;
+        
         _rabbitMqServiceMock.Setup(x => x.SendMessage(It.IsAny<string>(), It.IsAny<string>()))
             .Returns(Task.CompletedTask);
 

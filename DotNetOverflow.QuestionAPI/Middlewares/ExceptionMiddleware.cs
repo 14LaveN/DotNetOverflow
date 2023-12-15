@@ -4,27 +4,18 @@ using DotNetOverflow.Core.Responses;
 
 namespace DotNetOverflow.QuestionAPI.Middlewares;
 
-public class ExceptionMiddleware
+public class ExceptionMiddleware(RequestDelegate next,
+    ILogger<ExceptionMiddleware> logger)
 {
-    private readonly RequestDelegate _next;
-    private readonly ILogger<ExceptionMiddleware> _logger;
-
-    public ExceptionMiddleware(RequestDelegate next,
-        ILogger<ExceptionMiddleware> logger)
-    {
-        _next = next;
-        _logger = logger;
-    }
-
     public async Task Invoke(HttpContext context)
     {
         try
         {
-            await _next.Invoke(context);
+            await next.Invoke(context);
         }
         catch (Exception ex)
         {
-            _logger.LogError(ex, "An unhandled exception occurred.");
+            logger.LogError(ex, "An unhandled exception occurred.");
 
             context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
             context.Response.ContentType = "application/json";

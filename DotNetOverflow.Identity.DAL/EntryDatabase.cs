@@ -20,9 +20,16 @@ public static class EntryDatabase
         var config = configuration.GetConnectionString("Db");
         
         services.AddDbContext<AppDbContext>(o => 
-            o.UseNpgsql(config)
+            o.UseNpgsql(config, act 
+                    =>
+                {
+                    act.EnableRetryOnFailure(3);
+                    act.CommandTimeout(30);
+                })
                 .LogTo(Console.WriteLine)
-                .EnableServiceProviderCaching());
+                .EnableServiceProviderCaching()
+                .EnableSensitiveDataLogging()
+                .EnableDetailedErrors());
         
         services.AddScoped<IAppUserRepository, AppUserRepository>();
         services.AddScoped<IUnitOfWork, IdentityUnitOfWork>();

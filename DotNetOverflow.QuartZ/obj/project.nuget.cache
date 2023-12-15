@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ssLSAxJ6j3tbwCm/cGRmUgbnZLpbqxbM/zRoX+ubK+CpZM16s0nO3P27mwNsf/DZIcKXmz9O6/iNYHSqjUANJw==",
+  "dgSpecHash": "HdrukzaZxcgHvjciBmj/mO6oiqssUFsnxIM1RaChxKykYitgbtCwkCCPehnGS8hm7VwfmWdt4++g/QKJPsR5+w==",
   "success": true,
   "projectFilePath": "G:\\DotNetProjects\\DotNetOverflow\\DotNetOverflow.QuartZ\\DotNetOverflow.QuartZ.csproj",
   "expectedPackageFiles": [
@@ -81,6 +81,8 @@
     "C:\\Users\\ponom\\.nuget\\packages\\newtonsoft.json.bson\\1.0.1\\newtonsoft.json.bson.1.0.1.nupkg.sha512",
     "C:\\Users\\ponom\\.nuget\\packages\\npgsql\\8.0.0\\npgsql.8.0.0.nupkg.sha512",
     "C:\\Users\\ponom\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.0\\npgsql.entityframeworkcore.postgresql.8.0.0.nupkg.sha512",
+    "C:\\Users\\ponom\\.nuget\\packages\\polly\\8.2.0\\polly.8.2.0.nupkg.sha512",
+    "C:\\Users\\ponom\\.nuget\\packages\\polly.core\\8.2.0\\polly.core.8.2.0.nupkg.sha512",
     "C:\\Users\\ponom\\.nuget\\packages\\prometheus-net\\8.2.0-pre-231128134008-9a7dad2\\prometheus-net.8.2.0-pre-231128134008-9a7dad2.nupkg.sha512",
     "C:\\Users\\ponom\\.nuget\\packages\\quartz\\3.8.0\\quartz.3.8.0.nupkg.sha512",
     "C:\\Users\\ponom\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

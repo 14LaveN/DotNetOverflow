@@ -9,7 +9,7 @@ public static class MiddlewareConfiguration
         
         app.UseMiddleware<RequestLoggingMiddleware>(app.Logger);
         //TODO app.UseMiddleware<ResponseCachingMiddleware>();
-       //TODO app.UseMiddleware<ExceptionMiddleware>(app.Logger);// - Exceptions Middleware
+        //TODO app.UseMiddleware<ExceptionMiddleware>(app.Logger);// - Exceptions Middleware
 
         return app;
     }

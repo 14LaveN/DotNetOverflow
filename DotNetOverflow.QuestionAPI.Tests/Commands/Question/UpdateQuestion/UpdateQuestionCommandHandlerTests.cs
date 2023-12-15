@@ -3,6 +3,7 @@ using DotNetOverflow.Core.Enum.Question;
 using DotNetOverflow.Core.Enum.StatusCodes;
 using DotNetOverflow.Identity.DAL.Database;
 using DotNetOverflow.QuestionAPI.Commands.Question.UpdateQuestion;
+using DotNetOverflow.QuestionAPI.DAL.Database;
 using DotNetOverflow.QuestionAPI.DAL.Database.Interfaces;
 using DotNetOverflow.QuestionAPI.DAL.Database.Repository;
 using DotNetOverflow.RabbitMq.Interfaces;
@@ -24,7 +25,10 @@ public class UpdateQuestionCommandHandlerTests
         _rabbitMqServiceMock = new Mock<IRabbitMqService>();
         _validatorMock = new UpdateQuestionCommandValidator();
         _loggerMock = new Mock<ILogger<UpdateQuestionCommandHandler>>();
-        _questionUnitOfWork = new QuestionUnitOfWork(new QuestionRepository(new AppDbContext()), new AppDbContext());
+        _questionUnitOfWork = new QuestionUnitOfWork(new QuestionRepository
+                (new AppDbContext(), new QuestionDbContext()),
+            new AppDbContext(),
+            new QuestionDbContext());
         _commandHandler = new UpdateQuestionCommandHandler(
             _rabbitMqServiceMock.Object,
             _validatorMock,

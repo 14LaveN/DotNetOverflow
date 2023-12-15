@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dot-net-overflow-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dot-net-overflow
+  template:
+    metadata:
+      labels:
+        app: dot-net-overflow
+    spec:
+      containers:
+        - name: dotnetoverflow.identity
+          image: dotnetoverflow.identity
+          ports:
+            - containerPort: 7004
+          
+        - name: dotnetoverflow.questionapi
+          image: dotnetoverflow.questionapi
+          ports:
+            - containerPort: 7120
+        
+        - name: dotnetoverflow.imageapi
+          image: dotnetoverflow.imageapi
+          ports:
+            - containerPort: 7048
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: myapp-service
+spec:
+  selector:
+    app: myapp
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+  type: LoadBalancer

@@ -4,3 +4,169 @@
 2023-12-12 10:58:07.4129|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
 2023-12-12 10:58:07.4129|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
 2023-12-12 10:58:07.4129|0|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-12-12 17:54:55.4017|0|DEBUG|Quartz.Core.JobRunShell|Trigger instruction : NoInstruction |url: |action: |Quartz.Core.JobRunShell.Run
+2023-12-12 17:54:59.1586|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-12-12 17:54:59.1586|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5184 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-12-12 17:54:59.1586|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-12-12 17:54:59.1586|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-12-12 17:54:59.1586|0|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-12-12 17:55:15.5793|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-12 17:59:34.3887|0|DEBUG|Quartz.Core.JobRunShell|Trigger instruction : NoInstruction |url: |action: |Quartz.Core.JobRunShell.Run
+2023-12-12 17:59:35.7114|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-12-12 17:59:35.7114|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5184 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-12-12 17:59:35.7114|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-12-12 17:59:35.7114|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-12-12 17:59:35.7114|0|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-12-12 17:59:59.8605|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-12 18:00:29.2424|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-12 18:51:51.5122|0|DEBUG|Quartz.Core.JobRunShell|Trigger instruction : NoInstruction |url: |action: |Quartz.Core.JobRunShell.Run
+2023-12-12 18:51:53.2809|0|FATAL|Microsoft.AspNetCore.Hosting.Diagnostics|Application startup exception System.InvalidOperationException: A suitable constructor for type 'DotNetOverflow.QuestionAPI.Middlewares.ExceptionMiddleware' could not be located. Ensure the type is concrete and services are registered for all parameters of a public constructor.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)|url: |action: |Microsoft.AspNetCore.Hosting.HostingLoggerExtensions.ApplicationError
+2023-12-12 18:51:53.2992|0|ERROR|Microsoft.Extensions.Hosting.Internal.Host|Hosting failed to start System.InvalidOperationException: A suitable constructor for type 'DotNetOverflow.QuestionAPI.Middlewares.ExceptionMiddleware' could not be located. Ensure the type is concrete and services are registered for all parameters of a public constructor.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)|url: |action: |Microsoft.Extensions.Hosting.Internal.HostingLoggerExtensions.HostedServiceStartupFaulted
+2023-12-12 18:53:26.8425|0|DEBUG|Quartz.Core.JobRunShell|Trigger instruction : NoInstruction |url: |action: |Quartz.Core.JobRunShell.Run
+2023-12-12 18:53:28.2034|0|FATAL|Microsoft.AspNetCore.Hosting.Diagnostics|Application startup exception System.InvalidOperationException: A suitable constructor for type 'DotNetOverflow.QuestionAPI.Middlewares.ExceptionMiddleware' could not be located. Ensure the type is concrete and services are registered for all parameters of a public constructor.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)|url: |action: |Microsoft.AspNetCore.Hosting.HostingLoggerExtensions.ApplicationError
+2023-12-12 18:53:28.2178|0|ERROR|Microsoft.Extensions.Hosting.Internal.Host|Hosting failed to start System.InvalidOperationException: A suitable constructor for type 'DotNetOverflow.QuestionAPI.Middlewares.ExceptionMiddleware' could not be located. Ensure the type is concrete and services are registered for all parameters of a public constructor.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)|url: |action: |Microsoft.Extensions.Hosting.Internal.HostingLoggerExtensions.HostedServiceStartupFaulted
+2023-12-12 18:54:38.5395|0|DEBUG|Quartz.Core.JobRunShell|Trigger instruction : NoInstruction |url: |action: |Quartz.Core.JobRunShell.Run
+2023-12-12 18:54:39.9554|0|FATAL|Microsoft.AspNetCore.Hosting.Diagnostics|Application startup exception System.InvalidOperationException: A suitable constructor for type 'DotNetOverflow.QuestionAPI.Middlewares.ExceptionMiddleware' could not be located. Ensure the type is concrete and services are registered for all parameters of a public constructor.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)|url: |action: |Microsoft.AspNetCore.Hosting.HostingLoggerExtensions.ApplicationError
+2023-12-12 18:54:39.9554|0|ERROR|Microsoft.Extensions.Hosting.Internal.Host|Hosting failed to start System.InvalidOperationException: A suitable constructor for type 'DotNetOverflow.QuestionAPI.Middlewares.ExceptionMiddleware' could not be located. Ensure the type is concrete and services are registered for all parameters of a public constructor.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)|url: |action: |Microsoft.Extensions.Hosting.Internal.HostingLoggerExtensions.HostedServiceStartupFaulted
+2023-12-12 18:55:01.4007|0|DEBUG|Quartz.Core.JobRunShell|Trigger instruction : NoInstruction |url: |action: |Quartz.Core.JobRunShell.Run
+2023-12-12 18:55:02.5465|0|FATAL|Microsoft.AspNetCore.Hosting.Diagnostics|Application startup exception System.InvalidOperationException: A suitable constructor for type 'DotNetOverflow.QuestionAPI.Middlewares.ExceptionMiddleware' could not be located. Ensure the type is concrete and services are registered for all parameters of a public constructor.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)|url: |action: |Microsoft.AspNetCore.Hosting.HostingLoggerExtensions.ApplicationError
+2023-12-12 18:55:02.5736|0|ERROR|Microsoft.Extensions.Hosting.Internal.Host|Hosting failed to start System.InvalidOperationException: A suitable constructor for type 'DotNetOverflow.QuestionAPI.Middlewares.ExceptionMiddleware' could not be located. Ensure the type is concrete and services are registered for all parameters of a public constructor.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)|url: |action: |Microsoft.Extensions.Hosting.Internal.HostingLoggerExtensions.HostedServiceStartupFaulted
+2023-12-12 19:33:36.8179|0|DEBUG|Quartz.Core.JobRunShell|Trigger instruction : NoInstruction |url: |action: |Quartz.Core.JobRunShell.Run
+2023-12-12 19:33:38.1257|0|FATAL|Microsoft.AspNetCore.Hosting.Diagnostics|Application startup exception System.InvalidOperationException: An error occurred when configuring the exception handler middleware. Either the 'ExceptionHandlingPath' or the 'ExceptionHandler' property must be set in 'UseExceptionHandler()'. Alternatively, set one of the aforementioned properties in 'Startup.ConfigureServices' as follows: 'services.AddExceptionHandler(options => { ... });' or configure to generate a 'ProblemDetails' response in 'service.AddProblemDetails()'.
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl..ctor(RequestDelegate next, ILoggerFactory loggerFactory, IOptions`1 options, DiagnosticListener diagnosticListener, IEnumerable`1 exceptionHandlers, IMeterFactory meterFactory, IProblemDetailsService problemDetailsService)
+   at Microsoft.AspNetCore.Builder.ExceptionHandlerExtensions.<>c__DisplayClass5_0.<SetExceptionHandlerMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)|url: |action: |Microsoft.AspNetCore.Hosting.HostingLoggerExtensions.ApplicationError
+2023-12-12 19:33:38.1395|0|ERROR|Microsoft.Extensions.Hosting.Internal.Host|Hosting failed to start System.InvalidOperationException: An error occurred when configuring the exception handler middleware. Either the 'ExceptionHandlingPath' or the 'ExceptionHandler' property must be set in 'UseExceptionHandler()'. Alternatively, set one of the aforementioned properties in 'Startup.ConfigureServices' as follows: 'services.AddExceptionHandler(options => { ... });' or configure to generate a 'ProblemDetails' response in 'service.AddProblemDetails()'.
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl..ctor(RequestDelegate next, ILoggerFactory loggerFactory, IOptions`1 options, DiagnosticListener diagnosticListener, IEnumerable`1 exceptionHandlers, IMeterFactory meterFactory, IProblemDetailsService problemDetailsService)
+   at Microsoft.AspNetCore.Builder.ExceptionHandlerExtensions.<>c__DisplayClass5_0.<SetExceptionHandlerMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)|url: |action: |Microsoft.Extensions.Hosting.Internal.HostingLoggerExtensions.HostedServiceStartupFaulted
+2023-12-12 19:35:32.3615|0|DEBUG|Quartz.Core.JobRunShell|Trigger instruction : NoInstruction |url: |action: |Quartz.Core.JobRunShell.Run
+2023-12-12 19:35:33.9377|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-12-12 19:35:33.9377|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5184 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-12-12 19:35:33.9377|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-12-12 19:35:33.9377|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-12-12 19:35:33.9377|0|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-12-12 19:35:58.7652|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-12 19:36:31.0781|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-12 19:36:34.8105|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.ArgumentNullException: IDX10000: The parameter 'token' cannot be a 'null' or an empty object.  (Parameter 'token')
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at DotNetOverflow.Core.Helpers.JWT.GetClaimByJwtToken.GetNameByToken(String token) in G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Core\Helpers\JWT\GetClaimByJwtToken.cs:line 10
+   at DotNetOverflow.QuestionAPI.Controllers.ApiBaseController.GetName() in G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI\Controllers\ApiBaseController.cs:line 31
+   at lambda_method49(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Prometheus.Client.HttpRequestDurations.HttpRequestDurationsMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpRequestDurationMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpRequestCountMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpInProgressMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/get-name|action: GetName|Microsoft.AspNetCore.Diagnostics.DiagnosticsTelemetry.ReportUnhandledException
+2023-12-12 19:36:58.3239|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-12 19:37:31.5438|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 1 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-12 19:37:32.1038|0|DEBUG|Quartz.Simpl.SimpleJobFactory|Producing instance of Job 'DEFAULT.ee5aded5-720d-44d7-aee9-83d97c079f18', class=DotNetOverflow.QuartZ.Jobs.DbTask |url: |action: |Quartz.Simpl.SimpleJobFactory.NewJob
+2023-12-12 19:37:32.1038|0|DEBUG|Quartz.Core.JobRunShell|Calling Execute on job DEFAULT.ee5aded5-720d-44d7-aee9-83d97c079f18 |url: |action: |Quartz.Core.JobRunShell.Run
+2023-12-12 19:37:32.1424|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-12 19:37:32.2629|0|INFO|DotNetOverflow.QuestionAPI|Get request: Microsoft.AspNetCore.Http.DefaultHttpRequest |url: https://localhost/error|action: |DotNetOverflow.QuestionAPI.Middlewares.RequestLoggingMiddleware.InvokeAsync
+2023-12-12 19:37:32.4561|0|DEBUG|Quartz.Core.JobRunShell|Trigger instruction : NoInstruction |url: |action: |Quartz.Core.JobRunShell.Run
+2023-12-12 19:38:39.3860|0|DEBUG|Quartz.Core.JobRunShell|Trigger instruction : NoInstruction |url: |action: |Quartz.Core.JobRunShell.Run
+2023-12-12 19:38:40.7916|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-12-12 19:38:40.7916|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5184 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-12-12 19:38:40.7916|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-12-12 19:38:40.7916|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-12-12 19:38:40.7916|0|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-12-12 19:39:05.9497|0|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers |url: |action: |Quartz.Core.QuartzSchedulerThread.Run
+2023-12-12 19:39:06.1051|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.ArgumentNullException: IDX10000: The parameter 'token' cannot be a 'null' or an empty object.  (Parameter 'token')
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at DotNetOverflow.Core.Helpers.JWT.GetClaimByJwtToken.GetNameByToken(String token) in G:\DotNetProjects\DotNetOverflow\DotNetOverflow.Core\Helpers\JWT\GetClaimByJwtToken.cs:line 10
+   at DotNetOverflow.QuestionAPI.Controllers.ApiBaseController.GetName() in G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI\Controllers\ApiBaseController.cs:line 31
+   at lambda_method49(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Prometheus.Client.HttpRequestDurations.HttpRequestDurationsMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpRequestDurationMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpRequestCountMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpInProgressMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/get-name|action: GetName|Microsoft.AspNetCore.Diagnostics.DiagnosticsTelemetry.ReportUnhandledException

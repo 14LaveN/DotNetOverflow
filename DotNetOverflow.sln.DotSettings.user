@@ -5,5 +5,6 @@
     &lt;TestId&gt;xUnit::71FA55C0-92FA-4788-B18C-054A83E76C5C::net8.0::DotNetOverflow.QuestionAPI.Tests.Commands.Question.CreateQuestion.CreateQuestionCommandHandlerTests.Handle_WithInvalidCommand_ReturnsValidationErrorResponse&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::71FA55C0-92FA-4788-B18C-054A83E76C5C::net8.0::DotNetOverflow.QuestionAPI.Tests.Commands.Question.CreateQuestion.CreateQuestionCommandHandlerTests.Handle_WithException_ReturnsInternalServerErrorResponse&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::71FA55C0-92FA-4788-B18C-054A83E76C5C::net8.0::DotNetOverflow.QuestionAPI.Tests.Commands.Question.DeleteQuestion.DeleteQuestionCommandHandlerTests.Handle_WithValidCommand_ReturnsSuccessResponse&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::71FA55C0-92FA-4788-B18C-054A83E76C5C::net8.0::DotNetOverflow.QuestionAPI.Tests.Repository.QuestionRepositoryTests.GetQuestionsBySameAuthorId_Handle_WithCommandSuccess&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

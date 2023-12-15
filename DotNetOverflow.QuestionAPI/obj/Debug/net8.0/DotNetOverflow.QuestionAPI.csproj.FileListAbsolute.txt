@@ -112,3 +112,9 @@ G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI\obj\Debug\net8.0\Dot
 G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI\obj\Debug\net8.0\DotNetOverflow.QuestionAPI.MvcApplicationPartsAssemblyInfo.cs
 G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI\obj\Debug\net8.0\DotNetOverflow.QuestionAPI.csproj.CopyComplete
 G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI\obj\Debug\net8.0\DotNetOverflow.QuestionAPI.xml
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI\bin\Debug\net8.0\Elasticsearch.Net.dll
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI\bin\Debug\net8.0\Nest.dll
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI\bin\Debug\net8.0\NLog.Targets.ElasticSearch.dll
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI\bin\Debug\net8.0\Polly.dll
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI\bin\Debug\net8.0\Polly.Core.dll
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI\bin\Debug\net8.0\Dapper.dll

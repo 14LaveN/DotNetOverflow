@@ -1,5 +1,6 @@
 using DotNetOverflow.Core.Entity.Account;
 using DotNetOverflow.Core.Helpers.JWT;
+using DotNetOverflow.Core.Policy.Retry;
 using DotNetOverflow.Identity.DAL.Database.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
@@ -26,9 +27,16 @@ public class ApiBaseController(IUnitOfWork unitOfWork) : Controller
     ///
     /// 
     [HttpGet("get-name")]
-    public string GetName()
+    public  string GetName()
     {
-        var name = GetClaimByJwtToken.GetNameByToken(Token);
+        var name = BaseRetryPolicy.Policy.Execute(() =>
+            GetClaimByJwtToken.GetNameByToken(Token));
+        
+        ArgumentException
+            .ThrowIfNullOrEmpty(
+                name,
+                nameof(name));
+        
         return name;
     }
 
@@ -48,9 +56,10 @@ public class ApiBaseController(IUnitOfWork unitOfWork) : Controller
     public async Task<AppUser> GetProfile()
     {
         var name = GetName();
-        var profile = await unitOfWork
+        var profile = await BaseRetryPolicy.Policy.Execute(async () =>
+           await unitOfWork
             .AppUserRepository
-            .GetByName(name);
+            .GetByName(name));
 
         return profile;
     }

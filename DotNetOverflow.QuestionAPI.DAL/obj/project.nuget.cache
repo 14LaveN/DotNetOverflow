@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "hn2FDJ3t+sLinPb/XsrZuEvEl5Ju2VHimGqe8MfzBAKmlBrXzqjCTXuhpHZYDwTOn4lRAPCVuPxnmJlrWS8d/Q==",
+  "dgSpecHash": "lBvQ/TUgB2U0k72sMjpE17crqNki4a0CmvAPH82XTrTTkMwLnPf6zglJG7iC8hVoM4fJVOW0befCrj9XwfYMdw==",
   "success": true,
   "projectFilePath": "G:\\DotNetProjects\\DotNetOverflow\\DotNetOverflow.QuestionAPI.DAL\\DotNetOverflow.QuestionAPI.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ponom\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\ponom\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
+    "C:\\Users\\ponom\\.nuget\\packages\\dapper\\2.1.24\\dapper.2.1.24.nupkg.sha512",
     "C:\\Users\\ponom\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\ponom\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\ponom\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
@@ -79,6 +80,8 @@
     "C:\\Users\\ponom\\.nuget\\packages\\newtonsoft.json.bson\\1.0.1\\newtonsoft.json.bson.1.0.1.nupkg.sha512",
     "C:\\Users\\ponom\\.nuget\\packages\\npgsql\\8.0.0\\npgsql.8.0.0.nupkg.sha512",
     "C:\\Users\\ponom\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.0\\npgsql.entityframeworkcore.postgresql.8.0.0.nupkg.sha512",
+    "C:\\Users\\ponom\\.nuget\\packages\\polly\\8.2.0\\polly.8.2.0.nupkg.sha512",
+    "C:\\Users\\ponom\\.nuget\\packages\\polly.core\\8.2.0\\polly.core.8.2.0.nupkg.sha512",
     "C:\\Users\\ponom\\.nuget\\packages\\prometheus-net\\8.2.0-pre-231128134008-9a7dad2\\prometheus-net.8.2.0-pre-231128134008-9a7dad2.nupkg.sha512",
     "C:\\Users\\ponom\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\ponom\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

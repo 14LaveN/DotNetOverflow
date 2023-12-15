@@ -1,6 +1,7 @@
 using DotNetOverflow.Identity.DAL.Database;
 using DotNetOverflow.Identity.DAL.Database.Interfaces;
 using DotNetOverflow.Identity.DAL.Database.Repository;
+using DotNetOverflow.QuestionAPI.DAL.Database;
 using DotNetOverflow.QuestionAPI.DAL.Database.Interfaces;
 using DotNetOverflow.QuestionAPI.DAL.Database.Repository;
 using Microsoft.EntityFrameworkCore;
@@ -20,6 +21,8 @@ public static class EntryDatabase
         }
         
         var config = configuration.GetConnectionString("Db");
+
+        services.AddTransient<QuestionDbContext>(_ => new QuestionDbContext());
         
         services.AddDbContext<AppDbContext>(o => 
             o.UseNpgsql(config)

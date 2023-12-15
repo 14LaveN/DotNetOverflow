@@ -7,6 +7,7 @@ using DotNetOverflow.QuestionAPI.DAL.Database.Interfaces;
 using DotNetOverflow.RabbitMq.Interfaces;
 using FluentValidation;
 using MediatR;
+using MongoDB.Bson;
 
 namespace DotNetOverflow.QuestionAPI.Commands.Question.CreateQuestion;
 
@@ -52,6 +53,7 @@ public class CreateQuestionCommandHandler(IRabbitMqService rabbitMqService,
             };
         }
         catch (Exception exception)
+            //when(exception.StatusCode == StatusCode.InternalServerError)
         {
             logger.LogError(exception.Message, $"[CreateQuestionCommandHandler]: {exception.Message}");
             return new BaseResponse<QuestionEntity>

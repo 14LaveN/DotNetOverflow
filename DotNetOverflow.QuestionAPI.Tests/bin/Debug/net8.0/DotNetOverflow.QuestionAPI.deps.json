@@ -18,7 +18,9 @@
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.0",
           "Microsoft.AspNetCore.SignalR.StackExchangeRedis": "8.0.0",
           "Microsoft.Extensions.Caching.StackExchangeRedis": "8.0.0",
+          "NLog.Targets.ElasticSearch": "7.7.0",
           "NLog.Web.AspNetCore": "5.3.7",
+          "Polly": "8.2.0",
           "Prometheus.Client.AspNetCore": "5.0.0",
           "Prometheus.Client.HttpRequestDurations": "3.6.0",
           "Swashbuckle.AspNetCore.Swagger": "6.5.0",
@@ -73,6 +75,14 @@
           }
         }
       },
+      "Dapper/2.1.24": {
+        "runtime": {
+          "lib/net7.0/Dapper.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.1.24.50284"
+          }
+        }
+      },
       "DnsClient/1.6.1": {
         "dependencies": {
           "Microsoft.Win32.Registry": "5.0.0"
@@ -81,6 +91,19 @@
           "lib/net5.0/DnsClient.dll": {
             "assemblyVersion": "1.6.1.0",
             "fileVersion": "1.6.1.0"
+          }
+        }
+      },
+      "Elasticsearch.Net/7.13.2": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.6.0",
+          "System.Buffers": "4.5.1",
+          "System.Diagnostics.DiagnosticSource": "8.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Elasticsearch.Net.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.13.2.0"
           }
         }
       },
@@ -260,8 +283,8 @@
       },
       "Microsoft.AspNetCore.JsonPatch/2.2.0": {
         "dependencies": {
-          "Microsoft.CSharp": "4.5.0",
-          "Newtonsoft.Json": "11.0.2"
+          "Microsoft.CSharp": "4.6.0",
+          "Newtonsoft.Json": "12.0.3"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.JsonPatch.dll": {
@@ -358,7 +381,7 @@
           "System.Text.Encodings.Web": "4.5.0"
         }
       },
-      "Microsoft.CSharp/4.5.0": {},
+      "Microsoft.CSharp/4.6.0": {},
       "Microsoft.DotNet.PlatformAbstractions/2.1.0": {
         "dependencies": {
           "System.AppContext": "4.3.0",
@@ -454,7 +477,7 @@
       "Microsoft.Extensions.DependencyModel/2.1.0": {
         "dependencies": {
           "Microsoft.DotNet.PlatformAbstractions": "2.1.0",
-          "Newtonsoft.Json": "11.0.2",
+          "Newtonsoft.Json": "12.0.3",
           "System.Diagnostics.Debug": "4.3.0",
           "System.Dynamic.Runtime": "4.0.11",
           "System.Linq": "4.3.0"
@@ -745,6 +768,17 @@
           }
         }
       },
+      "NEST/7.13.2": {
+        "dependencies": {
+          "Elasticsearch.Net": "7.13.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Nest.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.13.2.0"
+          }
+        }
+      },
       "NETStandard.Library/1.6.1": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -793,18 +827,18 @@
           "System.Xml.XDocument": "4.3.0"
         }
       },
-      "Newtonsoft.Json/11.0.2": {
+      "Newtonsoft.Json/12.0.3": {
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "assemblyVersion": "11.0.0.0",
-            "fileVersion": "11.0.2.21924"
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
           }
         }
       },
       "Newtonsoft.Json.Bson/1.0.1": {
         "dependencies": {
           "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "12.0.3"
         },
         "runtime": {
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {
@@ -831,6 +865,20 @@
           "lib/net8.0/NLog.Extensions.Logging.dll": {
             "assemblyVersion": "5.0.0.0",
             "fileVersion": "5.3.7.448"
+          }
+        }
+      },
+      "NLog.Targets.ElasticSearch/7.7.0": {
+        "dependencies": {
+          "Elasticsearch.Net": "7.13.2",
+          "NEST": "7.13.2",
+          "NLog": "5.2.7",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NLog.Targets.ElasticSearch.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -878,6 +926,25 @@
           "lib/net5.0/Pipelines.Sockets.Unofficial.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "2.2.8.1080"
+          }
+        }
+      },
+      "Polly/8.2.0": {
+        "dependencies": {
+          "Polly.Core": "8.2.0"
+        },
+        "runtime": {
+          "lib/net6.0/Polly.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.2.0.2702"
+          }
+        }
+      },
+      "Polly.Core/8.2.0": {
+        "runtime": {
+          "lib/net8.0/Polly.Core.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.2.0.2702"
           }
         }
       },
@@ -1749,6 +1816,7 @@
           "Microsoft.Extensions.Identity.Stores": "8.0.0",
           "MongoDB.Driver": "2.22.0",
           "MongoDB.Driver.Core": "2.22.0",
+          "Polly": "8.2.0",
           "System.IdentityModel.Tokens.Jwt": "7.0.3",
           "prometheus-net": "8.2.0"
         },
@@ -1793,6 +1861,7 @@
       },
       "DotNetOverflow.QuestionAPI.DAL/1.0.0": {
         "dependencies": {
+          "Dapper": "2.1.24",
           "DotNetOverflow.Identity.DAL": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.0"
@@ -1848,12 +1917,26 @@
       "path": "awssdk.securitytoken/3.7.100.14",
       "hashPath": "awssdk.securitytoken.3.7.100.14.nupkg.sha512"
     },
+    "Dapper/2.1.24": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/2t2vsdJyZRsk13AsWigZpsuFvEwK+o3v862cEULXoww905gyKhJFSuwmZI/4Ui9COX9ZCFCI09UHyH4wVYl3A==",
+      "path": "dapper/2.1.24",
+      "hashPath": "dapper.2.1.24.nupkg.sha512"
+    },
     "DnsClient/1.6.1": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-4H/f2uYJOZ+YObZjpY9ABrKZI+JNw3uizp6oMzTXwDw6F+2qIPhpRl/1t68O/6e98+vqNiYGu+lswmwdYUy3gg==",
       "path": "dnsclient/1.6.1",
       "hashPath": "dnsclient.1.6.1.nupkg.sha512"
+    },
+    "Elasticsearch.Net/7.13.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vJyFolb5BmQt1SDAZG4QHo+9Ygs0sa70JssTN3+6+SintWJMG4c0U5bumj/S17wwxvtDze/ZWzuMqSPWFWm/Fg==",
+      "path": "elasticsearch.net/7.13.2",
+      "hashPath": "elasticsearch.net.7.13.2.nupkg.sha512"
     },
     "FluentValidation/11.8.1": {
       "type": "package",
@@ -2100,12 +2183,12 @@
       "path": "microsoft.aspnetcore.webutilities/2.2.0",
       "hashPath": "microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512"
     },
-    "Microsoft.CSharp/4.5.0": {
+    "Microsoft.CSharp/4.6.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
-      "path": "microsoft.csharp/4.5.0",
-      "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512"
+      "sha512": "sha512-kxn3M2rnAGy5N5DgcIwcE8QTePWU/XiYcQVzn9HqTls2NKluVzVSmVWRjK7OUPWbljCXuZxHyhEz9kPRIQeXow==",
+      "path": "microsoft.csharp/4.6.0",
+      "hashPath": "microsoft.csharp.4.6.0.nupkg.sha512"
     },
     "Microsoft.DotNet.PlatformAbstractions/2.1.0": {
       "type": "package",
@@ -2429,6 +2512,13 @@
       "path": "mongodb.libmongocrypt/1.8.0",
       "hashPath": "mongodb.libmongocrypt.1.8.0.nupkg.sha512"
     },
+    "NEST/7.13.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DGIa3yb/QaldQ/vtdO0r0jh2C6oIHS9Got+7HiQWJ+GSN/kI4wCN4SXsY3gGfi0P1j3hOl81+14uT7+UxCg/Ew==",
+      "path": "nest/7.13.2",
+      "hashPath": "nest.7.13.2.nupkg.sha512"
+    },
     "NETStandard.Library/1.6.1": {
       "type": "package",
       "serviceable": true,
@@ -2436,12 +2526,12 @@
       "path": "netstandard.library/1.6.1",
       "hashPath": "netstandard.library.1.6.1.nupkg.sha512"
     },
-    "Newtonsoft.Json/11.0.2": {
+    "Newtonsoft.Json/12.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
-      "path": "newtonsoft.json/11.0.2",
-      "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
     },
     "Newtonsoft.Json.Bson/1.0.1": {
       "type": "package",
@@ -2463,6 +2553,13 @@
       "sha512": "sha512-3VJFapWBopaQvGSuSUwWxjrK43RPC+pSi8yJisRQMdN87e/xmWLCzqrCzujU2fx9ktq4kRkZC3m/9PRLNBZ44g==",
       "path": "nlog.extensions.logging/5.3.7",
       "hashPath": "nlog.extensions.logging.5.3.7.nupkg.sha512"
+    },
+    "NLog.Targets.ElasticSearch/7.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h8kor5uB03bu3BYI19EITq/BcQ+KDyrI7MiuuNaUcNotujPo9nNZx0GUPPzUfKYGLEY67YUVTLIQtVq0+SMlGg==",
+      "path": "nlog.targets.elasticsearch/7.7.0",
+      "hashPath": "nlog.targets.elasticsearch.7.7.0.nupkg.sha512"
     },
     "NLog.Web.AspNetCore/5.3.7": {
       "type": "package",
@@ -2491,6 +2588,20 @@
       "sha512": "sha512-zG2FApP5zxSx6OcdJQLbZDk2AVlN2BNQD6MorwIfV6gVj0RRxWPEp2LXAxqDGZqeNV1Zp0BNPcNaey/GXmTdvQ==",
       "path": "pipelines.sockets.unofficial/2.2.8",
       "hashPath": "pipelines.sockets.unofficial.2.2.8.nupkg.sha512"
+    },
+    "Polly/8.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KZm8iG29y6Mse7YntYYJSf5fGWuhYLliWgZaG/8NcuXS4gN7SPdtPYpjCxQlHqxvMGubkWVrGp3MvUaI7SkyKA==",
+      "path": "polly/8.2.0",
+      "hashPath": "polly.8.2.0.nupkg.sha512"
+    },
+    "Polly.Core/8.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gnKp3+mxGFmkFs4eHcD9aex0JOF8zS1Y18c2A5ckXXTVqbs6XLcDyLKgSa/mUFqAnH3mn9+uVIM0RhAec/d3kA==",
+      "path": "polly.core/8.2.0",
+      "hashPath": "polly.core.8.2.0.nupkg.sha512"
     },
     "prometheus-net/8.2.0": {
       "type": "package",

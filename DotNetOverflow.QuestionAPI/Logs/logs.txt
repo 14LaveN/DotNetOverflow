@@ -10,3 +10,133 @@
 2023-12-12 10:58:47.1662 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
 2023-12-12 10:58:47.1724 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI\bin\Debug\net8.0\nlogQuestion.config
 2023-12-12 10:58:47.1724 Info Configuration initialized.
+2023-12-12 17:54:49.2114 Info Loading assembly name: NLog.Targets.ElasticSearch
+2023-12-12 17:54:50.9084 Info NLog.Targets.ElasticSearch, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3eb62cd298662c6a. File version: 1.0.0.0. Product version: 1.0.0+2fb9a27ff48217059d2b3648bb2a79b6b0af9922. GlobalAssemblyCache: False
+2023-12-12 17:54:52.4659 Info Registered target NLog.Targets.ElasticSearch.ElasticSearchTarget(Name=elastic)
+2023-12-12 17:54:52.4763 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-12-12 17:54:52.4763 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-12-12 17:54:52.4839 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-12-12 17:54:52.4839 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-12 17:54:52.4839 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=75, FilePath=G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI\bin\Debug\net8.0\nlogQuestion.config
+2023-12-12 17:54:52.4839 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: elastic
+2023-12-12 17:54:52.5506 Info Configuration initialized.
+2023-12-12 17:59:33.5685 Info Loading assembly name: NLog.Targets.ElasticSearch
+2023-12-12 17:59:33.6028 Info NLog.Targets.ElasticSearch, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3eb62cd298662c6a. File version: 1.0.0.0. Product version: 1.0.0+2fb9a27ff48217059d2b3648bb2a79b6b0af9922. GlobalAssemblyCache: False
+2023-12-12 17:59:33.6605 Info Registered target NLog.Targets.ElasticSearch.ElasticSearchTarget(Name=elastic)
+2023-12-12 17:59:33.6752 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-12-12 17:59:33.6752 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-12-12 17:59:33.6752 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-12-12 17:59:33.6874 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-12 17:59:33.6874 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=75, FilePath=G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI\bin\Debug\net8.0\nlogQuestion.config
+2023-12-12 17:59:33.7025 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: elastic
+2023-12-12 17:59:33.7471 Info Configuration initialized.
+2023-12-12 18:51:50.1074 Info Loading assembly name: NLog.Targets.ElasticSearch
+2023-12-12 18:51:50.6025 Info NLog.Targets.ElasticSearch, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3eb62cd298662c6a. File version: 1.0.0.0. Product version: 1.0.0+2fb9a27ff48217059d2b3648bb2a79b6b0af9922. GlobalAssemblyCache: False
+2023-12-12 18:51:50.7139 Info Registered target NLog.Targets.ElasticSearch.ElasticSearchTarget(Name=elastic)
+2023-12-12 18:51:50.7256 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-12-12 18:51:50.7256 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-12-12 18:51:50.7256 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-12-12 18:51:50.7256 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-12 18:51:50.7485 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=75, FilePath=G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI\bin\Debug\net8.0\nlogQuestion.config
+2023-12-12 18:51:50.7545 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: elastic
+2023-12-12 18:51:50.8047 Info Configuration initialized.
+2023-12-12 18:53:26.0506 Info Loading assembly name: NLog.Targets.ElasticSearch
+2023-12-12 18:53:26.0880 Info NLog.Targets.ElasticSearch, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3eb62cd298662c6a. File version: 1.0.0.0. Product version: 1.0.0+2fb9a27ff48217059d2b3648bb2a79b6b0af9922. GlobalAssemblyCache: False
+2023-12-12 18:53:26.1408 Info Registered target NLog.Targets.ElasticSearch.ElasticSearchTarget(Name=elastic)
+2023-12-12 18:53:26.1619 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-12-12 18:53:26.1619 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-12-12 18:53:26.1619 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-12-12 18:53:26.1619 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-12 18:53:26.1737 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=75, FilePath=G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI\bin\Debug\net8.0\nlogQuestion.config
+2023-12-12 18:53:26.1737 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: elastic
+2023-12-12 18:53:26.2210 Info Configuration initialized.
+2023-12-12 18:54:37.7602 Info Loading assembly name: NLog.Targets.ElasticSearch
+2023-12-12 18:54:37.8078 Info NLog.Targets.ElasticSearch, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3eb62cd298662c6a. File version: 1.0.0.0. Product version: 1.0.0+2fb9a27ff48217059d2b3648bb2a79b6b0af9922. GlobalAssemblyCache: False
+2023-12-12 18:54:37.8531 Info Registered target NLog.Targets.ElasticSearch.ElasticSearchTarget(Name=elastic)
+2023-12-12 18:54:37.8652 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-12-12 18:54:37.8652 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-12-12 18:54:37.8652 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-12-12 18:54:37.8760 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-12 18:54:37.8760 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=75, FilePath=G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI\bin\Debug\net8.0\nlogQuestion.config
+2023-12-12 18:54:37.8940 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: elastic
+2023-12-12 18:54:37.9354 Info Configuration initialized.
+2023-12-12 18:55:00.5903 Info Loading assembly name: NLog.Targets.ElasticSearch
+2023-12-12 18:55:00.6435 Info NLog.Targets.ElasticSearch, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3eb62cd298662c6a. File version: 1.0.0.0. Product version: 1.0.0+2fb9a27ff48217059d2b3648bb2a79b6b0af9922. GlobalAssemblyCache: False
+2023-12-12 18:55:00.6817 Info Registered target NLog.Targets.ElasticSearch.ElasticSearchTarget(Name=elastic)
+2023-12-12 18:55:00.7029 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-12-12 18:55:00.7029 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-12-12 18:55:00.7029 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-12-12 18:55:00.7029 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-12 18:55:00.7029 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=75, FilePath=G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI\bin\Debug\net8.0\nlogQuestion.config
+2023-12-12 18:55:00.7191 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: elastic
+2023-12-12 18:55:00.7678 Info Configuration initialized.
+2023-12-12 19:33:36.0394 Info Loading assembly name: NLog.Targets.ElasticSearch
+2023-12-12 19:33:36.0796 Info NLog.Targets.ElasticSearch, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3eb62cd298662c6a. File version: 1.0.0.0. Product version: 1.0.0+2fb9a27ff48217059d2b3648bb2a79b6b0af9922. GlobalAssemblyCache: False
+2023-12-12 19:33:36.1301 Info Registered target NLog.Targets.ElasticSearch.ElasticSearchTarget(Name=elastic)
+2023-12-12 19:33:36.1525 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-12-12 19:33:36.1525 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-12-12 19:33:36.1557 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-12-12 19:33:36.1557 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-12 19:33:36.1712 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=75, FilePath=G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI\bin\Debug\net8.0\nlogQuestion.config
+2023-12-12 19:33:36.1712 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: elastic
+2023-12-12 19:33:36.2203 Info Configuration initialized.
+2023-12-12 19:35:31.5963 Info Loading assembly name: NLog.Targets.ElasticSearch
+2023-12-12 19:35:31.6453 Info NLog.Targets.ElasticSearch, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3eb62cd298662c6a. File version: 1.0.0.0. Product version: 1.0.0+2fb9a27ff48217059d2b3648bb2a79b6b0af9922. GlobalAssemblyCache: False
+2023-12-12 19:35:31.6842 Info Registered target NLog.Targets.ElasticSearch.ElasticSearchTarget(Name=elastic)
+2023-12-12 19:35:31.6993 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-12-12 19:35:31.6993 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-12-12 19:35:31.6993 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-12-12 19:35:31.7094 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-12 19:35:31.7094 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=75, FilePath=G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI\bin\Debug\net8.0\nlogQuestion.config
+2023-12-12 19:35:31.7258 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: elastic
+2023-12-12 19:35:31.7709 Info Configuration initialized.
+2023-12-12 19:38:38.5656 Info Loading assembly name: NLog.Targets.ElasticSearch
+2023-12-12 19:38:38.5996 Info NLog.Targets.ElasticSearch, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3eb62cd298662c6a. File version: 1.0.0.0. Product version: 1.0.0+2fb9a27ff48217059d2b3648bb2a79b6b0af9922. GlobalAssemblyCache: False
+2023-12-12 19:38:38.6619 Info Registered target NLog.Targets.ElasticSearch.ElasticSearchTarget(Name=elastic)
+2023-12-12 19:38:38.6715 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-12-12 19:38:38.6715 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-12-12 19:38:38.6715 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-12-12 19:38:38.6884 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-12 19:38:38.6884 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=75, FilePath=G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI\bin\Debug\net8.0\nlogQuestion.config
+2023-12-12 19:38:38.6884 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: elastic
+2023-12-12 19:38:38.7454 Info Configuration initialized.
+2023-12-13 16:46:10.3952 Info Loading assembly name: NLog.Targets.ElasticSearch
+2023-12-13 16:46:14.4029 Info NLog.Targets.ElasticSearch, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3eb62cd298662c6a. File version: 1.0.0.0. Product version: 1.0.0+2fb9a27ff48217059d2b3648bb2a79b6b0af9922. GlobalAssemblyCache: False
+2023-12-13 16:46:14.4900 Info Registered target NLog.Targets.ElasticSearch.ElasticSearchTarget(Name=elastic)
+2023-12-13 16:46:14.5049 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-12-13 16:46:14.5049 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-12-13 16:46:14.5049 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-12-13 16:46:14.5049 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-13 16:46:14.5175 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=75, FilePath=G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI\bin\Debug\net8.0\nlogQuestion.config
+2023-12-13 16:46:14.5175 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: elastic
+2023-12-13 16:46:14.5753 Info Configuration initialized.
+2023-12-13 16:46:56.9814 Info Loading assembly name: NLog.Targets.ElasticSearch
+2023-12-13 16:46:57.0203 Info NLog.Targets.ElasticSearch, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3eb62cd298662c6a. File version: 1.0.0.0. Product version: 1.0.0+2fb9a27ff48217059d2b3648bb2a79b6b0af9922. GlobalAssemblyCache: False
+2023-12-13 16:46:57.0654 Info Registered target NLog.Targets.ElasticSearch.ElasticSearchTarget(Name=elastic)
+2023-12-13 16:46:57.0848 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-12-13 16:46:57.0848 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-12-13 16:46:57.0848 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-12-13 16:46:57.0848 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-13 16:46:57.0970 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=75, FilePath=G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI\bin\Debug\net8.0\nlogQuestion.config
+2023-12-13 16:46:57.0970 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: elastic
+2023-12-13 16:46:57.1451 Info Configuration initialized.
+2023-12-13 16:47:22.7434 Info Loading assembly name: NLog.Targets.ElasticSearch
+2023-12-13 16:47:22.7741 Info NLog.Targets.ElasticSearch, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3eb62cd298662c6a. File version: 1.0.0.0. Product version: 1.0.0+2fb9a27ff48217059d2b3648bb2a79b6b0af9922. GlobalAssemblyCache: False
+2023-12-13 16:47:22.8260 Info Registered target NLog.Targets.ElasticSearch.ElasticSearchTarget(Name=elastic)
+2023-12-13 16:47:22.8451 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-12-13 16:47:22.8451 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-12-13 16:47:22.8451 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-12-13 16:47:22.8451 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-13 16:47:22.8451 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=75, FilePath=G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI\bin\Debug\net8.0\nlogQuestion.config
+2023-12-13 16:47:22.8648 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: elastic
+2023-12-13 16:47:22.9082 Info Configuration initialized.
+2023-12-13 17:24:44.0523 Info Loading assembly name: NLog.Targets.ElasticSearch
+2023-12-13 17:24:44.1141 Info NLog.Targets.ElasticSearch, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3eb62cd298662c6a. File version: 1.0.0.0. Product version: 1.0.0+2fb9a27ff48217059d2b3648bb2a79b6b0af9922. GlobalAssemblyCache: False
+2023-12-13 17:24:44.2073 Info Registered target NLog.Targets.ElasticSearch.ElasticSearchTarget(Name=elastic)
+2023-12-13 17:24:44.2260 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-12-13 17:24:44.2260 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-12-13 17:24:44.2260 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-12-13 17:24:44.2260 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-13 17:24:44.2464 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=75, FilePath=G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI\bin\Debug\net8.0\nlogQuestion.config
+2023-12-13 17:24:44.2502 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: elastic
+2023-12-13 17:24:44.3001 Info Configuration initialized.

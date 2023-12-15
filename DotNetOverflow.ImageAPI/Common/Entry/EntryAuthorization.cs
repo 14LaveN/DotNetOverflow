@@ -4,7 +4,7 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace DotNetOverflow.ImageAPI.Common.Entry;
 
-public static class EntryAuthorization
+internal static class EntryAuthorization
 {
     public static IServiceCollection AddAuthorizationEntry(this IServiceCollection services)
     {

@@ -3,6 +3,7 @@ using DotNetOverflow.Core.Enum.Question;
 using DotNetOverflow.Core.Enum.StatusCodes;
 using DotNetOverflow.Identity.DAL.Database;
 using DotNetOverflow.QuestionAPI.Commands.Question.DeleteQuestion;
+using DotNetOverflow.QuestionAPI.DAL.Database;
 using DotNetOverflow.QuestionAPI.DAL.Database.Interfaces;
 using DotNetOverflow.QuestionAPI.DAL.Database.Repository;
 using DotNetOverflow.RabbitMq.Interfaces;
@@ -25,7 +26,10 @@ public class DeleteQuestionCommandHandlerTests
         _rabbitMqServiceMock = new Mock<IRabbitMqService>();
         _validatorMock = new DeleteQuestionCommandValidator();
         _loggerMock = new Mock<ILogger<DeleteQuestionCommandHandler>>();
-        _questionUnitOfWorkMock = new QuestionUnitOfWork(new QuestionRepository(new AppDbContext()), new AppDbContext());
+        _questionUnitOfWorkMock = new QuestionUnitOfWork(new QuestionRepository
+                (new AppDbContext(), new QuestionDbContext()),
+            new AppDbContext(),
+            new QuestionDbContext());
         _commandHandler = new DeleteQuestionCommandHandler(
             _rabbitMqServiceMock.Object,
             _validatorMock,

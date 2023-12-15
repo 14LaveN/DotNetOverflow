@@ -6,3 +6,91 @@
       dockerfile: DotNetOverflow.Identity/Dockerfile
     ports:
       - 7004:7004
+    depends_on:
+      - mongodb
+      - redis
+      - prometheus
+    #  - elasticsearch
+
+  dotnetoverflow.questionapi:
+    image: dotnetoverflow.questionapi
+    build:
+      context: .
+      dockerfile: DotNetOverflow.QuestionAPI/Dockerfile
+    ports:
+      - 7120:7120
+
+  dotnetoverflow.imageapi:
+    image: dotnetoverflow.imageapi
+    build:
+      context: .
+      dockerfile: DotNetOverflow.ImageAPI/Dockerfile
+    ports:
+      - 7048:7048
+
+  redis:
+    image: redis:latest
+    ports:
+      - 6379:6379
+    volumes:
+      - redis-data:/data
+
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    ports:
+      - 27017:27017
+    volumes:
+      - mongodb_data:/data/db
+
+ # elasticsearch:
+ #   container_name: elasticsearch
+ #   image: docker.elastic.co/elasticsearch/elasticsearch:7.9.2
+ #   ports:
+ #     - 9200:9200
+ #   volumes:
+ #     - elasticsearch-data:/usr/share/elasticsearch/data
+ #   environment:
+ #     - discovery.type=single-node
+ #   networks:
+ #     - elastic
+#
+ # kibana:
+ #   container_name: kibana
+ #   image: docker.elastic.co/kibana/kibana:7.9.2
+ #   ports:
+ #     - 5601:5601
+ #   depends_on:
+ #     - elasticsearch
+ #   environment:
+ #     - ELASTICSEARCH_URL=http://localhost:9200
+ #   networks:
+ #     - elastic
+
+  prometheus:
+    image: prom/prometheus:latest
+    restart: always
+    ports:
+      - 9090:9090
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+
+  grafana:
+    image: grafana/grafana:latest
+    restart: always
+    depends_on:
+      - prometheus
+    ports:
+      - 3000:3000
+    volumes:
+      - grafana-storage:/var/lib/grafana
+
+networks:
+  elastic:
+    driver: bridge
+
+volumes:
+  grafana-storage:
+#  elasticsearch-data:
+  redis-data:
+  mongodb_data:

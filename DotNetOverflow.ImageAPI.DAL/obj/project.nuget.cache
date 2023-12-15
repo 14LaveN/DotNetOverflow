@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dgffrBzBnn6dh+8V7NB+V3zDYFlSSZ8ZtvEExmVUS7aZJq0G40Y6kWo0hLDx2X/yyL/9wZCtRV+uYTCzuOx8Qg==",
+  "dgSpecHash": "T3mAw02w0u+O4slt3WQdW24p7YcTSc0jITMJlSnSBY0KZQf9/7QIRjbGu3K9ljVSGVGdfEcj8S6jKz8kQ5+/Xw==",
   "success": true,
   "projectFilePath": "G:\\DotNetProjects\\DotNetOverflow\\DotNetOverflow.ImageAPI.DAL\\DotNetOverflow.ImageAPI.DAL.csproj",
   "expectedPackageFiles": [
@@ -79,6 +79,8 @@
     "C:\\Users\\ponom\\.nuget\\packages\\newtonsoft.json.bson\\1.0.1\\newtonsoft.json.bson.1.0.1.nupkg.sha512",
     "C:\\Users\\ponom\\.nuget\\packages\\npgsql\\8.0.0\\npgsql.8.0.0.nupkg.sha512",
     "C:\\Users\\ponom\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.0\\npgsql.entityframeworkcore.postgresql.8.0.0.nupkg.sha512",
+    "C:\\Users\\ponom\\.nuget\\packages\\polly\\8.2.0\\polly.8.2.0.nupkg.sha512",
+    "C:\\Users\\ponom\\.nuget\\packages\\polly.core\\8.2.0\\polly.core.8.2.0.nupkg.sha512",
     "C:\\Users\\ponom\\.nuget\\packages\\prometheus-net\\8.2.0-pre-231128134008-9a7dad2\\prometheus-net.8.2.0-pre-231128134008-9a7dad2.nupkg.sha512",
     "C:\\Users\\ponom\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\ponom\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

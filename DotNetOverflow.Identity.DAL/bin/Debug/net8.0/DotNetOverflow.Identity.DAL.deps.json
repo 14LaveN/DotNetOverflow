@@ -1174,6 +1174,25 @@
           }
         }
       },
+      "Polly/8.2.0": {
+        "dependencies": {
+          "Polly.Core": "8.2.0"
+        },
+        "runtime": {
+          "lib/net6.0/Polly.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.2.0.2702"
+          }
+        }
+      },
+      "Polly.Core/8.2.0": {
+        "runtime": {
+          "lib/net8.0/Polly.Core.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.2.0.2702"
+          }
+        }
+      },
       "prometheus-net/8.2.0-pre-231128134008-9a7dad2": {
         "dependencies": {
           "Microsoft.Extensions.Http": "3.1.0",
@@ -1952,6 +1971,7 @@
           "Microsoft.Extensions.Identity.Stores": "8.0.0",
           "MongoDB.Driver": "2.22.0",
           "MongoDB.Driver.Core": "2.22.0",
+          "Polly": "8.2.0",
           "System.IdentityModel.Tokens.Jwt": "7.0.3",
           "prometheus-net": "8.2.0-pre-231128134008-9a7dad2"
         },
@@ -2554,6 +2574,20 @@
       "sha512": "sha512-GDXiMS9peEdjSCU/rfgyHruio7q6tYuywGaktqEi6UPQ6ILechp3fVVX+dHXkIXt4nklCBzYVWkzFrSL9ubKUA==",
       "path": "npgsql.entityframeworkcore.postgresql/8.0.0",
       "hashPath": "npgsql.entityframeworkcore.postgresql.8.0.0.nupkg.sha512"
+    },
+    "Polly/8.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KZm8iG29y6Mse7YntYYJSf5fGWuhYLliWgZaG/8NcuXS4gN7SPdtPYpjCxQlHqxvMGubkWVrGp3MvUaI7SkyKA==",
+      "path": "polly/8.2.0",
+      "hashPath": "polly.8.2.0.nupkg.sha512"
+    },
+    "Polly.Core/8.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gnKp3+mxGFmkFs4eHcD9aex0JOF8zS1Y18c2A5ckXXTVqbs6XLcDyLKgSa/mUFqAnH3mn9+uVIM0RhAec/d3kA==",
+      "path": "polly.core/8.2.0",
+      "hashPath": "polly.core.8.2.0.nupkg.sha512"
     },
     "prometheus-net/8.2.0-pre-231128134008-9a7dad2": {
       "type": "package",

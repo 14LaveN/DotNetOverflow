@@ -2,7 +2,7 @@ using FluentValidation;
 
 namespace DotNetOverflow.ImageAPI.Commands.Image.CreateImage;
 
-public class CreateImageCommandValidator
+public sealed class CreateImageCommandValidator
     : AbstractValidator<CreateImageCommand>
 {
     public CreateImageCommandValidator()

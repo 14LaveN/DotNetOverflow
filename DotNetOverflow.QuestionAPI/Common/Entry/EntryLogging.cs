@@ -11,6 +11,8 @@ public static class EntryLogging
         {
             throw new ArgumentNullException(nameof(services));
         }
+
+        services.AddLogging();
         
         services.AddLogging(loggingBuilder =>
         {

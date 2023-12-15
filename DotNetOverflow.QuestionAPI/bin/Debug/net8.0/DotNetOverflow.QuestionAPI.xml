@@ -31,11 +31,12 @@
              <response code="500">Internal server error</response>
             
         </member>
-        <member name="M:DotNetOverflow.QuestionAPI.Controllers.V1.QuestionController.CreateQuestion(DotNetOverflow.QuestionAPI.Commands.Question.CreateQuestion.CreateQuestionCommand)">
+        <member name="M:DotNetOverflow.QuestionAPI.Controllers.V1.QuestionController.CreateQuestion(DotNetOverflow.QuestionAPI.Commands.Question.CreateQuestion.CreateQuestionCommand,System.Threading.CancellationToken)">
              <summary>
              Create question
              </summary>
              <param name="createQuestionCommand"></param>
+             <param name="cancellationToken"></param>
              <returns>Base information about create question method</returns>
              <remarks>
              Example request:
@@ -44,47 +45,51 @@
              <response code="400"></response>
              <response code="500">Internal server error</response>
             
+             
         </member>
-        <member name="M:DotNetOverflow.QuestionAPI.Controllers.V1.QuestionController.DeleteQuestion(DotNetOverflow.QuestionAPI.Commands.Question.DeleteQuestion.DeleteQuestionCommand)">
-             <summary>
-             Delete question
-             </summary>
-             <param name="deleteQuestionCommand"></param>
-             <returns>Base information about delete question method</returns>
-             <remarks>
-             Example request:
-             </remarks>
-             <response code="200">Return base response where data - DeleteQuestionCommand and Status Code</response>
-             <response code="400"></response>
-             <response code="500">Internal server error</response>
+        <member name="M:DotNetOverflow.QuestionAPI.Controllers.V1.QuestionController.DeleteQuestion(DotNetOverflow.QuestionAPI.Commands.Question.DeleteQuestion.DeleteQuestionCommand,System.Threading.CancellationToken)">
+            <summary>
+            Delete question
+            </summary>
+            <param name="deleteQuestionCommand"></param>
+            <param name="cancellationToken"></param>
+            <returns>Base information about delete question method</returns>
+            <remarks>
+            Example request:
+            </remarks>
+            <response code="200">Return base response where data - DeleteQuestionCommand and Status Code</response>
+            <response code="400"></response>
+            <response code="500">Internal server error</response>
             
         </member>
-        <member name="M:DotNetOverflow.QuestionAPI.Controllers.V1.QuestionController.UpdateQuestion(DotNetOverflow.QuestionAPI.Commands.Question.UpdateQuestion.UpdateQuestionCommand)">
-             <summary>
-             Update question
-             </summary>
-             <param name="updateQuestionCommand"></param>
-             <returns>Base information about update question method</returns>
-             <remarks>
-             Example request:
-             </remarks>
-             <response code="200">Return base response where data - QuestionEntity and Status Code</response>
-             <response code="400"></response>
-             <response code="500">Internal server error</response>
+        <member name="M:DotNetOverflow.QuestionAPI.Controllers.V1.QuestionController.UpdateQuestion(DotNetOverflow.QuestionAPI.Commands.Question.UpdateQuestion.UpdateQuestionCommand,System.Threading.CancellationToken)">
+            <summary>
+            Update question
+            </summary>
+            <param name="updateQuestionCommand"></param>
+            <param name="cancellationToken"></param>
+            <returns>Base information about update question method</returns>
+            <remarks>
+            Example request:
+            </remarks>
+            <response code="200">Return base response where data - QuestionEntity and Status Code</response>
+            <response code="400"></response>
+            <response code="500">Internal server error</response>
             
         </member>
-        <member name="M:DotNetOverflow.QuestionAPI.Controllers.V1.QuestionController.GetQuestionById(DotNetOverflow.QuestionAPI.Queries.Question.GetQuestionDetails.GetQuestionDetailsQuery)">
-             <summary>
-             Get question by id
-             </summary>
-             <param name="=getQuestionDetailsQuery=getQuestionDetailsQuery"></param>
-             <returns>Base information about get question by id method</returns>
-             <remarks>
-             Example request:
-             </remarks>
-             <response code="200">Return base response where data - QuestionEntity and Status Code</response>
-             <response code="400"></response>
-             <response code="500">Internal server error</response>
+        <member name="M:DotNetOverflow.QuestionAPI.Controllers.V1.QuestionController.GetQuestionById(DotNetOverflow.QuestionAPI.Queries.Question.GetQuestionDetails.GetQuestionDetailsQuery,System.Threading.CancellationToken)">
+            <summary>
+            Get question by id
+            </summary>
+            <param name="getQuestionDetailsQuery"></param>
+            <param name="cancellationToken"></param>
+            <returns>Base information about get question by id method</returns>
+            <remarks>
+            Example request:
+            </remarks>
+            <response code="200">Return base response where data - QuestionEntity and Status Code</response>
+            <response code="400"></response>
+            <response code="500">Internal server error</response>
             
         </member>
     </members>

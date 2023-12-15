@@ -191,3 +191,12 @@ G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI.Tests\obj\Debug\net8
 G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI.Tests\obj\Debug\net8.0\DotNetOverflow.QuestionAPI.Tests.pdb
 G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI.Tests\obj\Debug\net8.0\DotNetOverflow.QuestionAPI.Tests.genruntimeconfig.cache
 G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI.Tests\obj\Debug\net8.0\ref\DotNetOverflow.QuestionAPI.Tests.dll
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI.Tests\bin\Debug\net8.0\AutoFixture.dll
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI.Tests\bin\Debug\net8.0\Elasticsearch.Net.dll
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI.Tests\bin\Debug\net8.0\Fare.dll
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI.Tests\bin\Debug\net8.0\Nest.dll
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI.Tests\bin\Debug\net8.0\NLog.Targets.ElasticSearch.dll
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI.Tests\bin\Debug\net8.0\Dapper.dll
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI.Tests\bin\Debug\net8.0\FluentAssertions.dll
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI.Tests\bin\Debug\net8.0\Polly.dll
+G:\DotNetProjects\DotNetOverflow\DotNetOverflow.QuestionAPI.Tests\bin\Debug\net8.0\Polly.Core.dll

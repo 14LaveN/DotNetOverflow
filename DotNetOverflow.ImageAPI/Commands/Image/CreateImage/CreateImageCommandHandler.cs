@@ -11,7 +11,7 @@ using MediatR;
 
 namespace DotNetOverflow.ImageAPI.Commands.Image.CreateImage;
 
-public class CreateImageCommandHandler(IRabbitMqService rabbitMqService,
+public sealed class CreateImageCommandHandler(IRabbitMqService rabbitMqService,
         IValidator<CreateImageCommand> validator,
         ILogger<CreateImageCommandHandler> logger,
         IImageUnitOfWork imageUnitOfWork)
